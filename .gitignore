@@ -1,0 +1,34 @@
+# Local / large data
+/data/
+
+# Claude local settings (may contain secrets)
+**/.claude/settings.local.json
+
+# Full Wav2Vec2 weights (clone from HF or copy separately)
+**/wav2vec2-large-960h/
+**/pytorch_model.bin
+
+# End-to-end fine-tune checkpoint (very large)
+ml_engine/models/v1_2_4/best_model.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+
+# Caches / logs (keep small jsonl if needed — uncomment to ignore all logs)
+# ml_engine/logs/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Embedding caches
+**/w2v2_large_cache/

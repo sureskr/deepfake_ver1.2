@@ -1,0 +1,98 @@
+---
+Deployment V1 - Date: 2026-04-25
+Base: verifax_v1_2_2_fast_20250823_055109
+Trained by: Suresh Krishnan
+
+Performance delta (release_in_the_wild test set, 25,423 files):
+  Accuracy : 66.76% -> 73.72%  (+6.96%)
+  EER      : 33.33% -> 28.28%  (-5.05%)
+  FPR      : unknown -> 12.37% (target <15%)
+  AUROC    : unknown -> 0.7850
+
+---
+
+CHANGED FILES:
+- models/best_model.pth
+    LinearHead fine-tuned 15 epochs on release_in_the_wild calibration set
+    (2,363 real + 2,363 fake = 4,726 files, 80/20 train/val split, seed=42)
+    Training: BCEWithLogitsLoss(pos_weight=1.7), Adam lr=1e-4, patience=5
+    Val EER at best checkpoint: 29.66%
+    MD5 (old): 4b9320cc1a50951a681f547c502aa8ef  [verifax_v1_2_2_fast_20250823_055109]
+    MD5 (new): 88d8a1689b5555a7f69034d1cfdfd002
+
+- ml_worker.py
+    GPU: explicit cuda device assignment; worker now refuses to start on CPU
+    Paths: replaced hardcoded paths with env vars VFX_MODEL_PATH / VFX_W2V2_DIR /
+           VFX_THR_PATH (falls back to sibling models/ directory if unset)
+    Stderr: all diagnostics routed to stderr, keeping stdout clean for protocol
+    No functional change to the stdin/stdout protocol (READY / LOADED / float)
+
+- requirements.txt
+    Added: miniaudio>=1.2  (required for FLAC audio decoding;
+           libsndfile has a known decoder sync bug on ~42% of ASVspoof FLAC files)
+
+NEW FILES:
+- models/threshold.txt
+    Operating threshold for sigmoid score -> FAKE/REAL decision
+    Value: 0.7000
+    Old engine: threshold hardcoded as 0.50 in inference script (no file)
+    At threshold=0.70 on 25,423-file test set:
+      Accuracy 73.72%, FPR 12.37%, FNR 49.78%, AUROC 0.7850
+
+UNCHANGED (do not copy):
+- wav2vec2-large-960h/  (backbone, 1.2 GB, MD5 identical in both repos:
+                         c08b8d22d961f02d5cbc94320c96d532 — already on server)
+- configs/requirements.txt  (old path, superseded by root requirements.txt)
+- inference/dl_inference_wav2vec2_large.py  (not used in production;
+  DLInferenceLarge loads checkpoint['model_state_dict'] which never existed
+  in this model format — dead code)
+- inference/run_test_inference.py   (not used in production)
+- inference/test_linear_model_inference.py  (not used in production)
+- scripts/  (training scripts, not deployed)
+
+---
+
+Deployment instructions:
+
+PRE-FLIGHT (on server):
+1. Confirm GPU is available:
+     py -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+2. Install new dependency:
+     pip install miniaudio>=1.2
+
+DEPLOY:
+3. Back up old model:
+     cp models/best_model.pth models/best_model.pth.bak_v0
+4. Copy new model weights:
+     deployment_v1/models/best_model.pth -> server models/best_model.pth
+5. Copy threshold file (NEW):
+     deployment_v1/models/threshold.txt  -> server models/threshold.txt
+6. Replace inference worker:
+     deployment_v1/ml_worker.py -> server ml_worker.py
+7. Set environment variables (or edit paths in ml_worker.py directly):
+     VFX_MODEL_PATH = <server path>/models/best_model.pth
+     VFX_W2V2_DIR   = <server path>/models/wav2vec2-large-960h
+     VFX_THR_PATH   = <server path>/models/threshold.txt
+8. Restart inference service
+
+VERIFY:
+9. Run smoke test on a known-fake file — score should be >= 0.70
+   Run smoke test on a known-real file — score should be < 0.70
+10. Check accuracy on held-out sample — should exceed 70% (was 66.76%)
+
+ROLLBACK (if needed):
+   cp models/best_model.pth.bak_v0 models/best_model.pth
+   rm models/threshold.txt  (or set to 0.5000)
+   Restore old ml_worker.py
+
+---
+
+Known limitations of V1:
+- Domain shift on ASVspoof 2021 LA (TTS/vocoder attacks):
+    Accuracy 58.7%, AUROC 0.653 — model was not trained on lab-style TTS
+    Fix in progress: V2 adds 1,000 LA calibration samples (eval pending)
+- FNR 49.78% at threshold=0.70: model misses ~50% of fakes
+    This is the precision/recall tradeoff at FPR<15% operating point
+    Lowering threshold to 0.55 gives FNR~20% but FPR~36%
+
+---

@@ -1,0 +1,40 @@
+Manual copy checklist (Windows ML VM)
+=====================================
+
+IF YOU SEE: Wav2Vec2Processor / vocab_file NoneType — your VM still has OLD inference.py.
+IF YOU SEE: KeyError 'model_state_dict' — same fix: copy latest windows_deployment\inference.py to C:\ml_engine\inference.py (supports raw finetune .pth).
+
+1) inference.py (REQUIRED once per VM — do this before run_ml_server.ps1)
+   Copy this folder's file:
+     windows_deployment\inference.py
+   To the ml_engine ROOT (overwrite):
+     C:\ml_engine\inference.py
+
+   On the VM you can do:
+     copy /Y C:\ml_engine\windows_deployment\inference.py C:\ml_engine\inference.py
+
+   Or from laptop: copy windows_deployment\inference.py from THIS REPO to the server path above.
+
+   After copy, line 5 of C:\ml_engine\inference.py should say:
+     from transformers import Wav2Vec2FeatureExtractor, Wav2Vec2Model
+   NOT Wav2Vec2Processor.
+
+   (Keeps the repo and server in sync with Wav2Vec2FeatureExtractor + ML_WAV2VEC_LOCAL.)
+
+2) Optional: update the launcher on the server
+   Copy:
+     windows_deployment\run_ml_server.ps1
+   To:
+     C:\ml_engine\windows_deployment\run_ml_server.ps1
+
+3) Before starting the API, either:
+   - Rely on run_ml_server.ps1 (sets ML_WAV2VEC_LOCAL if models\wav2vec2-large-960h exists), or
+   - In PowerShell:
+       $env:ML_WAV2VEC_LOCAL = "C:\ml_engine\models\wav2vec2-large-960h"
+
+4) Local Wav2Vec folder must include full weights, e.g. pytorch_model.bin or model.safetensors,
+   plus config.json and preprocessor_config.json.
+
+5) Start:
+     cd C:\ml_engine
+     .\windows_deployment\run_ml_server.ps1

@@ -1,0 +1,3 @@
+model,threshold,n_samples,accuracy,eer,fpr,fnr,auroc
+v1_2_4_proper,0.55,25423,73.2958,27.5517,11.8785,51.7508,0.792137
+v1_2_3_reference,0.70,25423,73.7200,28.2800,12.3700,49.7800,

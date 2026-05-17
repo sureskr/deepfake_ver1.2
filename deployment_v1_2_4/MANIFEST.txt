@@ -1,0 +1,42 @@
+Version: V1.2.4
+Threshold: 0.55
+Architecture: Wav2Vec2-large-960h frozen + LinearHead
+Training data: release_in_the_wild + ASVspoof2021 LA
+               + MLAAD + CVoiceFake + ASVspoof5
+Results on RitW (25,423 files):
+- Accuracy: 73.30%
+- EER: 27.55%
+- FPR: 11.88%
+- FNR: 51.75%
+- AUROC: 0.792
+
+Improvement over V1.2.2 (stakeholder tested):
+- Accuracy: 41.74% -> 73.30% (+31.56%)
+- FPR: 4.53% -> 11.88%
+- Detection rate: 15.15% -> 48.25%
+
+---
+
+CHANGED FILES (this package):
+- models/best_model.pth
+  v1_2_4_proper checkpoint: frozen pretrained Wav2Vec2 + trained Linear 1024->1 head
+  (head in checkpoint['head_state_dict']). ~6-7 KB class-weight blob plus metadata.
+
+- models/threshold.txt
+  Operating threshold for decisioning (RitW-tuned): 0.5500
+
+- ml_worker.py
+  Loads head from head_state_dict (V1.2.4) or legacy flat classifier.* dict (V1).
+
+- requirements.txt
+  Same stack as ml_engine / deployment_v1; includes miniaudio for FLAC-heavy corpora.
+
+- inference.py
+  DLInferenceLarge + _build_head_from_checkpoint (Linear + optional MLP / partial backbone).
+
+UNCHANGED on server (do not bundle here):
+- models/wav2vec2-large-960h/  (pretrained backbone weights; copy from ml_engine or prior deploy)
+
+Verify after copy:
+  File exists: models/best_model.pth, models/threshold.txt, ml_worker.py,
+               requirements.txt, inference.py, MANIFEST.txt, AGENT_INSTRUCTIONS.md
