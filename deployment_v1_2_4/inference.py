@@ -232,6 +232,9 @@ class DLInferenceLarge:
         checkpoint = torch.load(model_path, map_location=self.device, weights_only=False)
         self.embed_dim = checkpoint.get('embed_dim', 1024)  # Default to 1024 for large model
         self.model_name = checkpoint.get('model_name', 'facebook/wav2vec2-large-xlsr-53')
+        # Fix local-only model names that aren't valid HF repo IDs
+        if self.model_name.endswith('-local'):
+            self.model_name = self.model_name.removesuffix('-local')
 
         # FeatureExtractor only (no Wav2Vec2Processor tokenizer) — avoids HF tokenizer/vocab NoneType errors on some transformers versions.
         # Set ML_WAV2VEC_LOCAL to a folder with config.json, preprocessor_config.json, and pytorch_model.bin / model.safetensors for offline use.
