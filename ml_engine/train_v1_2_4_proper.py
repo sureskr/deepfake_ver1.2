@@ -6,6 +6,9 @@ but train on prepared v1_2_4 calibration (~17k files) with updated pos_weight.
 
 Default: print config summary and exit (no training). Run training with:
   py -3.11 train_v1_2_4_proper.py --train
+  py -3.11 train_v1_2_4_proper.py --config config/training_v1_2_5.json --train
+
+See TRAINING.md for the full workflow when adding new data.
 """
 from __future__ import annotations
 
@@ -30,23 +33,21 @@ from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 from transformers import Wav2Vec2FeatureExtractor, Wav2Vec2Model
 
-# ── Paths ──────────────────────────────────────────────────────────────────
-W2V2_DIR = Path(r"C:\vdfk_engine_dev\ml_engine\models\wav2vec2-large-960h")
-V13_HEAD_CKPT = Path(r"C:\vdfk_engine_dev\ml_engine\models\v1_finetuned\best_model.pth")
-V13_HEAD_FALLBACKS = [
-    Path(r"C:\vdfk_engine_dev\ml_engine\models\v1_finetuned_v2\best_model.pth"),
-    Path(r"C:\vdfk_engine_dev\ml_engine\models\finetuned\best_model.pth"),
-]
+from training_config import TrainingSettings, compute_pos_weight, load_training_config
 
-TRAIN_REAL = Path(r"C:\vdfk_engine_dev\data\v1_2_4\calibration\real")
-TRAIN_FAKE = Path(r"C:\vdfk_engine_dev\data\v1_2_4\calibration\fake")
-VAL_REAL = Path(r"C:\vdfk_engine_dev\data\v1_2_4\validation\real")
-VAL_FAKE = Path(r"C:\vdfk_engine_dev\data\v1_2_4\validation\fake")
-
-OUT_DIR = Path(r"C:\vdfk_engine_dev\ml_engine\models\v1_2_4_proper")
-OUT_MODEL = OUT_DIR / "best_model.pth"
-LOG_DIR = Path(r"C:\vdfk_engine_dev\ml_engine\logs")
-LOG_JSONL = LOG_DIR / "train_v1_2_4_proper.jsonl"
+# Defaults (overridden from config in main via _bind_settings)
+W2V2_DIR = Path(".")
+V13_HEAD_CKPT = Path(".")
+V13_HEAD_FALLBACKS: list[Path] = []
+TRAIN_REAL = Path(".")
+TRAIN_FAKE = Path(".")
+VAL_REAL = Path(".")
+VAL_FAKE = Path(".")
+OUT_DIR = Path(".")
+OUT_MODEL = Path(".")
+LOG_DIR = Path(".")
+LOG_JSONL = Path(".")
+RUN_NAME = "v1_2_4_proper"
 
 SAMPLE_RATE = 16000
 TARGET_LEN_S = 10.0
@@ -57,10 +58,45 @@ LR = 1e-4
 BATCH_SIZE = 32
 PATIENCE = 3
 MAX_EPOCHS = 50
-# N_real / N_fake on calibration = 6685 / 10361
-POS_WEIGHT = 6685.0 / 10361.0
+POS_WEIGHT = 1.0
 
 AUDIO_EXT = {".wav", ".flac", ".mp3", ".m4a", ".ogg"}
+
+
+def _bind_settings(cfg: TrainingSettings, pos_weight: float) -> None:
+    global W2V2_DIR, V13_HEAD_CKPT, V13_HEAD_FALLBACKS
+    global TRAIN_REAL, TRAIN_FAKE, VAL_REAL, VAL_FAKE
+    global OUT_DIR, OUT_MODEL, LOG_DIR, LOG_JSONL, RUN_NAME
+    global SAMPLE_RATE, TARGET_LEN_S, TARGET_SAMPLES, SEED
+    global LR, BATCH_SIZE, PATIENCE, MAX_EPOCHS, POS_WEIGHT, AUDIO_EXT
+
+    RUN_NAME = cfg.run_name
+    W2V2_DIR = cfg.wav2vec2_dir
+    V13_HEAD_CKPT = cfg.head_init_checkpoint
+    V13_HEAD_FALLBACKS = list(cfg.head_init_fallbacks)
+    TRAIN_REAL = cfg.train_real_dir
+    TRAIN_FAKE = cfg.train_fake_dir
+    VAL_REAL = cfg.val_real_dir
+    VAL_FAKE = cfg.val_fake_dir
+    OUT_DIR = cfg.output_dir
+    OUT_MODEL = cfg.output_model
+    LOG_DIR = cfg.log_dir
+    LOG_JSONL = cfg.log_jsonl
+    SAMPLE_RATE = cfg.sample_rate
+    TARGET_LEN_S = cfg.target_length_seconds
+    TARGET_SAMPLES = cfg.target_samples
+    SEED = cfg.seed
+    LR = cfg.learning_rate
+    BATCH_SIZE = cfg.batch_size
+    PATIENCE = cfg.patience
+    MAX_EPOCHS = cfg.max_epochs
+    POS_WEIGHT = pos_weight
+    AUDIO_EXT = set(cfg.audio_extensions)
+
+
+# Defaults for ``import train_v1_2_4_proper as p`` (eval scripts read W2V2_DIR, etc.)
+_DEFAULT_CFG = load_training_config(None)
+_bind_settings(_DEFAULT_CFG, 1.0)
 
 
 def set_seed() -> None:
@@ -84,6 +120,8 @@ def resolve_v13_head_checkpoint() -> Path | None:
         if p.is_file():
             return p
     return None
+
+
 def load_head_state_dict(ckpt_path: Path) -> dict:
     ckpt = torch.load(str(ckpt_path), map_location="cpu", weights_only=False)
     if isinstance(ckpt, dict):
@@ -265,29 +303,40 @@ def run_epoch(
 
 
 def print_config_summary(
+    cfg: TrainingSettings,
     n_train: int,
     n_train_real: int,
     n_train_fake: int,
     n_val: int,
     n_val_real: int,
     n_val_fake: int,
+    pos_weight: float,
     device: torch.device,
 ) -> None:
     print()
     print("=" * 72)
-    print("train_v1_2_4_proper - config summary (v1.2.3 recipe, v1_2_4 data)")
+    print(f"{RUN_NAME} - config summary (frozen Wav2Vec2 + linear head)")
     print("=" * 72)
+    print(f"  Description:     {cfg.description or '(none)'}")
     print(f"  Wav2Vec2:        fully FROZEN (local {W2V2_DIR})")
     print(f"  Head:            single Linear 1024->1 (LinearHeadLarge)")
     print(f"  Head init:       load classifier from {V13_HEAD_CKPT}")
     print(f"  Optimizer:       Adam(lr={LR}, train head only)")
     print(f"  Scheduler:       none")
-    print(f"  Loss:            BCEWithLogitsLoss(pos_weight={POS_WEIGHT:.6f}  # 6685/10361)")
+    print(
+        f"  Loss:            BCEWithLogitsLoss(pos_weight={pos_weight:.6f}  "
+        f"# {n_train_real}/{n_train_fake})"
+    )
     print(f"  Batch size:      {BATCH_SIZE}")
-    print(f"  Early stopping:  patience={PATIENCE} on val EER lower is better (max epochs {MAX_EPOCHS})")
+    print(
+        f"  Early stopping:  patience={PATIENCE} on val EER lower is better "
+        f"(max epochs {MAX_EPOCHS})"
+    )
     print(f"  Augmentation:    none")
     print(f"  Seed:            {SEED}")
     print(f"  Device:          {device}")
+    if cfg.manifest_path:
+        print(f"  Manifest:        {cfg.manifest_path}")
     print("-" * 72)
     print(f"  Train (calibration): {n_train} files  (real={n_train_real}, fake={n_train_fake})")
     print(f"  Val (validation):    {n_val} files    (real={n_val_real}, fake={n_val_fake})")
@@ -297,7 +346,13 @@ def print_config_summary(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="v1.2.3-style train on v1_2_4 calibration.")
+    parser = argparse.ArgumentParser(description="Frozen-backbone linear-head training.")
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=None,
+        help="JSON training config (default: config/training_v1_2_4_proper.json).",
+    )
     parser.add_argument(
         "--train",
         action="store_true",
@@ -305,23 +360,33 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    set_seed()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    train_ds = AudioFolderDataset(TRAIN_REAL, TRAIN_FAKE)
-    val_ds = AudioFolderDataset(VAL_REAL, VAL_FAKE)
+    cfg = load_training_config(args.config)
+    _bind_settings(cfg, 1.0)  # audio extensions before folder scan
+    train_ds = AudioFolderDataset(cfg.train_real_dir, cfg.train_fake_dir)
+    val_ds = AudioFolderDataset(cfg.val_real_dir, cfg.val_fake_dir)
     n_train_real = sum(1 for _, y in train_ds.samples if y == 0)
     n_train_fake = sum(1 for _, y in train_ds.samples if y == 1)
     n_val_real = sum(1 for _, y in val_ds.samples if y == 0)
     n_val_fake = sum(1 for _, y in val_ds.samples if y == 1)
 
+    if cfg.pos_weight == "auto":
+        pos_weight = compute_pos_weight(n_train_real, n_train_fake)
+    else:
+        pos_weight = float(cfg.pos_weight)
+
+    _bind_settings(cfg, pos_weight)
+    set_seed()
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     print_config_summary(
+        cfg,
         len(train_ds),
         n_train_real,
         n_train_fake,
         len(val_ds),
         n_val_real,
         n_val_fake,
+        pos_weight,
         device,
     )
 
@@ -332,7 +397,7 @@ def main() -> None:
     head_ckpt = resolve_v13_head_checkpoint()
     if head_ckpt is None:
         raise SystemExit(
-            f"Missing v1.2.3 head checkpoint. Tried {V13_HEAD_CKPT} "
+            f"Missing head init checkpoint. Tried {V13_HEAD_CKPT} "
             f"and fallbacks: {V13_HEAD_FALLBACKS}"
         )
     if head_ckpt != V13_HEAD_CKPT:
@@ -356,7 +421,7 @@ def main() -> None:
         load_v13_head_weights(head, head_ckpt)
         print(f"Loaded linear head weights from {head_ckpt}")
     except RuntimeError as e:
-        print(f"[WARN] Could not load v1.2.3 head: {e}; training from fresh head init.")
+        print(f"[WARN] Could not load head init: {e}; training from fresh head init.")
         init_head(head)
 
     model = FrozenW2V2Linear(backbone, head).to(device)
@@ -392,6 +457,7 @@ def main() -> None:
 
         row = {
             "epoch": epoch,
+            "run_name": RUN_NAME,
             "train": tr,
             "val": va,
             "elapsed_sec": time.perf_counter() - t0,
@@ -409,7 +475,7 @@ def main() -> None:
             best_epoch = epoch
             patience_left = PATIENCE
             payload = {
-                "format": "v1_2_4_proper",
+                "format": RUN_NAME,
                 "model_name": "facebook/wav2vec2-large-960h-local",
                 "embed_dim": int(backbone.config.hidden_size),
                 "wav2vec2_path": str(W2V2_DIR.resolve()),
@@ -418,18 +484,20 @@ def main() -> None:
                 "train_metrics": tr,
                 "head_state_dict": {k: v.cpu() for k, v in head.state_dict().items()},
                 "train_config": {
+                    "run_name": RUN_NAME,
                     "lr": LR,
                     "batch_size": BATCH_SIZE,
                     "patience": PATIENCE,
                     "max_epochs": MAX_EPOCHS,
                     "pos_weight": POS_WEIGHT,
-                    "optimizer": "Adam",
+                    "optimizer": cfg.optimizer,
                     "scheduler": None,
-                    "augmentation": False,
-                    "backbone_frozen": True,
+                    "augmentation": cfg.augmentation,
+                    "backbone_frozen": cfg.backbone_frozen,
                     "head": "Linear1024to1",
                     "seed": SEED,
-                    "early_stopping_metric": "val_eer",
+                    "early_stopping_metric": cfg.early_stopping_metric,
+                    "manifest_path": str(cfg.manifest_path) if cfg.manifest_path else None,
                 },
             }
             torch.save(payload, str(OUT_MODEL))

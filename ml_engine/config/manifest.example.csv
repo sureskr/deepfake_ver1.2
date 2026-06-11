@@ -1,0 +1,6 @@
+file_id,split,label,filepath,source,speaker_id,duration_sec,sample_rate,sha256,notes
+ritw_000001,calibration,real,C:/vdfk_engine_dev/data/v1_2_4/calibration/real/example.wav,release_in_the_wild,spk_042,8.32,16000,abc123deadbeef...,front-crop to 10s at train time
+ritw_000002,calibration,fake,C:/vdfk_engine_dev/data/v1_2_4/calibration/fake/example.wav,release_in_the_wild,synth_019,12.50,16000,def456cafebabe...,synthetic TTS sample
+asv_000003,validation,real,C:/vdfk_engine_dev/data/v1_2_4/validation/real/example.flac,asvspoof2021_LA,E_1234567,4.10,16000,789abc...,held-out speaker from LA eval
+asv_000004,test,fake,C:/vdfk_engine_dev/data/v1_2_4/test/fake/example.flac,asvspoof5,E_7654321,6.00,16000,012def...,never use for training or threshold tuning
+ritw_lock_000005,locked_test,real,C:/vdfk_engine_dev/data/test/real/example.wav,release_in_the_wild,spk_991,9.80,16000,fedcba987654...,sacred benchmark — evaluate once per model generation

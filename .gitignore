@@ -1,5 +1,7 @@
-# Local / large data
-/data/
+# Local / large data (manifest CSVs are tracked — see ml_engine/TRAINING.md)
+/data/*
+!/data/manifests/
+!/data/manifests/**
 
 # Claude local settings (may contain secrets)
 **/.claude/settings.local.json

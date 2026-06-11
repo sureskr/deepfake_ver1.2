@@ -1,0 +1,2 @@
+# Dataset manifests (audio files stay gitignored under data/)
+# Generate with: py -3.11 ml_engine/scripts/build_manifest.py

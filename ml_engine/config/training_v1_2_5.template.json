@@ -1,0 +1,47 @@
+{
+  "run_name": "v1_2_5_proper",
+  "description": "Template for next dataset drop — copy, edit paths, then train.",
+
+  "paths": {
+    "repo_root": "{auto}",
+    "wav2vec2_dir": "{repo_root}/ml_engine/models/wav2vec2-large-960h",
+    "head_init_checkpoint": "{repo_root}/ml_engine/models/v1_2_4_proper/best_model.pth",
+    "head_init_fallbacks": [
+      "{repo_root}/ml_engine/models/v1_finetuned/best_model.pth"
+    ],
+    "train_real_dir": "{repo_root}/data/v1_2_5/calibration/real",
+    "train_fake_dir": "{repo_root}/data/v1_2_5/calibration/fake",
+    "val_real_dir": "{repo_root}/data/v1_2_5/validation/real",
+    "val_fake_dir": "{repo_root}/data/v1_2_5/validation/fake",
+    "output_dir": "{repo_root}/ml_engine/models/v1_2_5_proper",
+    "log_dir": "{repo_root}/ml_engine/logs",
+    "manifest_path": "{repo_root}/data/manifests/v1_2_5.csv"
+  },
+
+  "audio": {
+    "sample_rate": 16000,
+    "target_length_seconds": 10.0,
+    "extensions": [".wav", ".flac", ".mp3", ".m4a", ".ogg"]
+  },
+
+  "training": {
+    "seed": 42,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "max_epochs": 50,
+    "patience": 3,
+    "early_stopping_metric": "val_eer",
+    "pos_weight": "auto",
+    "optimizer": "Adam",
+    "augmentation": false,
+    "backbone_frozen": true
+  },
+
+  "evaluation": {
+    "locked_test_real_dir": "{repo_root}/data/test/real",
+    "locked_test_fake_dir": "{repo_root}/data/test/fake",
+    "held_out_test_real_dir": "{repo_root}/data/v1_2_5/test/real",
+    "held_out_test_fake_dir": "{repo_root}/data/v1_2_5/test/fake",
+    "default_threshold": 0.55
+  }
+}
