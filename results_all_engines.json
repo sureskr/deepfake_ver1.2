@@ -1,0 +1,1828 @@
+{
+  "dataset": "garystafford/deepfake-audio-detection",
+  "n_files": 200,
+  "ml_threshold": 0.55,
+  "ml_engine": {
+    "accuracy": 0.29,
+    "tp": 1,
+    "tn": 57,
+    "fp": 43,
+    "fn": 99
+  },
+  "physics_engine": {
+    "accuracy": 0.7,
+    "tp": 51,
+    "tn": 89,
+    "fp": 11,
+    "fn": 49
+  },
+  "combined_engine": {
+    "accuracy": 0.485,
+    "tp": 0,
+    "tn": 97,
+    "fp": 3,
+    "fn": 100
+  },
+  "per_file": [
+    {
+      "file": "real_000.flac",
+      "label": "real",
+      "ml_score": 0.7724,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_001.flac",
+      "label": "real",
+      "ml_score": 0.7504,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_002.flac",
+      "label": "real",
+      "ml_score": 0.2722,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_003.flac",
+      "label": "real",
+      "ml_score": 0.3745,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_004.flac",
+      "label": "real",
+      "ml_score": 0.6009,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_005.flac",
+      "label": "real",
+      "ml_score": 0.5773,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_006.flac",
+      "label": "real",
+      "ml_score": 0.3665,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_007.flac",
+      "label": "real",
+      "ml_score": 0.6262,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_008.flac",
+      "label": "real",
+      "ml_score": 0.238,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_009.flac",
+      "label": "real",
+      "ml_score": 0.2858,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_010.flac",
+      "label": "real",
+      "ml_score": 0.597,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_011.flac",
+      "label": "real",
+      "ml_score": 0.3547,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_012.flac",
+      "label": "real",
+      "ml_score": 0.2394,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_013.flac",
+      "label": "real",
+      "ml_score": 0.5181,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_014.flac",
+      "label": "real",
+      "ml_score": 0.2551,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_015.flac",
+      "label": "real",
+      "ml_score": 0.6241,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_016.flac",
+      "label": "real",
+      "ml_score": 0.469,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_017.flac",
+      "label": "real",
+      "ml_score": 0.1254,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_018.flac",
+      "label": "real",
+      "ml_score": 0.5499,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_019.flac",
+      "label": "real",
+      "ml_score": 0.1979,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_020.flac",
+      "label": "real",
+      "ml_score": 0.2453,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_021.flac",
+      "label": "real",
+      "ml_score": 0.6074,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_022.flac",
+      "label": "real",
+      "ml_score": 0.2599,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_023.flac",
+      "label": "real",
+      "ml_score": 0.2683,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_024.flac",
+      "label": "real",
+      "ml_score": 0.5286,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_025.flac",
+      "label": "real",
+      "ml_score": 0.4103,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_026.flac",
+      "label": "real",
+      "ml_score": 0.4873,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_027.flac",
+      "label": "real",
+      "ml_score": 0.9224,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_028.flac",
+      "label": "real",
+      "ml_score": 0.6814,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_029.flac",
+      "label": "real",
+      "ml_score": 0.5497,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_030.flac",
+      "label": "real",
+      "ml_score": 0.6126,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_031.flac",
+      "label": "real",
+      "ml_score": 0.4038,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_032.flac",
+      "label": "real",
+      "ml_score": 0.5298,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_033.flac",
+      "label": "real",
+      "ml_score": 0.318,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_034.flac",
+      "label": "real",
+      "ml_score": 0.3707,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_035.flac",
+      "label": "real",
+      "ml_score": 0.4794,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_036.flac",
+      "label": "real",
+      "ml_score": 0.7159,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_037.flac",
+      "label": "real",
+      "ml_score": 0.4322,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_038.flac",
+      "label": "real",
+      "ml_score": 0.6182,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_039.flac",
+      "label": "real",
+      "ml_score": 0.5706,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_040.flac",
+      "label": "real",
+      "ml_score": 0.852,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "FAKE"
+    },
+    {
+      "file": "real_041.flac",
+      "label": "real",
+      "ml_score": 0.8404,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_042.flac",
+      "label": "real",
+      "ml_score": 0.3898,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_043.flac",
+      "label": "real",
+      "ml_score": 0.4729,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_044.flac",
+      "label": "real",
+      "ml_score": 0.6183,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_045.flac",
+      "label": "real",
+      "ml_score": 0.5956,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_046.flac",
+      "label": "real",
+      "ml_score": 0.693,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "FAKE"
+    },
+    {
+      "file": "real_047.flac",
+      "label": "real",
+      "ml_score": 0.6826,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_048.flac",
+      "label": "real",
+      "ml_score": 0.6861,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_049.flac",
+      "label": "real",
+      "ml_score": 0.5742,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_050.flac",
+      "label": "real",
+      "ml_score": 0.6567,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_051.flac",
+      "label": "real",
+      "ml_score": 0.3638,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_052.flac",
+      "label": "real",
+      "ml_score": 0.3404,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_053.flac",
+      "label": "real",
+      "ml_score": 0.3818,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_054.flac",
+      "label": "real",
+      "ml_score": 0.6985,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_055.flac",
+      "label": "real",
+      "ml_score": 0.4838,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_056.flac",
+      "label": "real",
+      "ml_score": 0.7467,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_057.flac",
+      "label": "real",
+      "ml_score": 0.414,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_058.flac",
+      "label": "real",
+      "ml_score": 0.4414,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_059.flac",
+      "label": "real",
+      "ml_score": 0.3054,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_060.flac",
+      "label": "real",
+      "ml_score": 0.7225,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_061.flac",
+      "label": "real",
+      "ml_score": 0.4914,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_062.flac",
+      "label": "real",
+      "ml_score": 0.5029,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_063.flac",
+      "label": "real",
+      "ml_score": 0.3423,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_064.flac",
+      "label": "real",
+      "ml_score": 0.7201,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_065.flac",
+      "label": "real",
+      "ml_score": 0.3927,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_066.flac",
+      "label": "real",
+      "ml_score": 0.4255,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_067.flac",
+      "label": "real",
+      "ml_score": 0.5953,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_068.flac",
+      "label": "real",
+      "ml_score": 0.6665,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_069.flac",
+      "label": "real",
+      "ml_score": 0.8604,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_070.flac",
+      "label": "real",
+      "ml_score": 0.5057,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_071.flac",
+      "label": "real",
+      "ml_score": 0.5777,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_072.flac",
+      "label": "real",
+      "ml_score": 0.5671,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "FAKE"
+    },
+    {
+      "file": "real_073.flac",
+      "label": "real",
+      "ml_score": 0.4152,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_074.flac",
+      "label": "real",
+      "ml_score": 0.7936,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_075.flac",
+      "label": "real",
+      "ml_score": 0.5094,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_076.flac",
+      "label": "real",
+      "ml_score": 0.114,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_077.flac",
+      "label": "real",
+      "ml_score": 0.3238,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_078.flac",
+      "label": "real",
+      "ml_score": 0.4586,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_079.flac",
+      "label": "real",
+      "ml_score": 0.8016,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_080.flac",
+      "label": "real",
+      "ml_score": 0.4689,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_081.flac",
+      "label": "real",
+      "ml_score": 0.5629,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_082.flac",
+      "label": "real",
+      "ml_score": 0.3438,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_083.flac",
+      "label": "real",
+      "ml_score": 0.3421,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_084.flac",
+      "label": "real",
+      "ml_score": 0.4649,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_085.flac",
+      "label": "real",
+      "ml_score": 0.407,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_086.flac",
+      "label": "real",
+      "ml_score": 0.326,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_087.flac",
+      "label": "real",
+      "ml_score": 0.6802,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_088.flac",
+      "label": "real",
+      "ml_score": 0.2616,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_089.flac",
+      "label": "real",
+      "ml_score": 0.3124,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_090.flac",
+      "label": "real",
+      "ml_score": 0.6118,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_091.flac",
+      "label": "real",
+      "ml_score": 0.4953,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_092.flac",
+      "label": "real",
+      "ml_score": 0.7242,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_093.flac",
+      "label": "real",
+      "ml_score": 0.5916,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_094.flac",
+      "label": "real",
+      "ml_score": 0.662,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_095.flac",
+      "label": "real",
+      "ml_score": 0.2853,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_096.flac",
+      "label": "real",
+      "ml_score": 0.6758,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_097.flac",
+      "label": "real",
+      "ml_score": 0.3968,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_098.flac",
+      "label": "real",
+      "ml_score": 0.6736,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "real_099.flac",
+      "label": "real",
+      "ml_score": 0.6227,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_000.flac",
+      "label": "fake",
+      "ml_score": 0.3012,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_001.flac",
+      "label": "fake",
+      "ml_score": 0.3065,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_002.flac",
+      "label": "fake",
+      "ml_score": 0.224,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_003.flac",
+      "label": "fake",
+      "ml_score": 0.1848,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_004.flac",
+      "label": "fake",
+      "ml_score": 0.1771,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_005.flac",
+      "label": "fake",
+      "ml_score": 0.1242,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_006.flac",
+      "label": "fake",
+      "ml_score": 0.2576,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_007.flac",
+      "label": "fake",
+      "ml_score": 0.3161,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_008.flac",
+      "label": "fake",
+      "ml_score": 0.2824,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_009.flac",
+      "label": "fake",
+      "ml_score": 0.242,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_010.flac",
+      "label": "fake",
+      "ml_score": 0.1306,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_011.flac",
+      "label": "fake",
+      "ml_score": 0.1687,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_012.flac",
+      "label": "fake",
+      "ml_score": 0.2199,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_013.flac",
+      "label": "fake",
+      "ml_score": 0.2496,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_014.flac",
+      "label": "fake",
+      "ml_score": 0.1879,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_015.flac",
+      "label": "fake",
+      "ml_score": 0.1129,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_016.flac",
+      "label": "fake",
+      "ml_score": 0.1784,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_017.flac",
+      "label": "fake",
+      "ml_score": 0.1772,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_018.flac",
+      "label": "fake",
+      "ml_score": 0.3175,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_019.flac",
+      "label": "fake",
+      "ml_score": 0.1393,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_020.flac",
+      "label": "fake",
+      "ml_score": 0.1568,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_021.flac",
+      "label": "fake",
+      "ml_score": 0.2687,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_022.flac",
+      "label": "fake",
+      "ml_score": 0.1591,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_023.flac",
+      "label": "fake",
+      "ml_score": 0.2637,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_024.flac",
+      "label": "fake",
+      "ml_score": 0.1252,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_025.flac",
+      "label": "fake",
+      "ml_score": 0.1915,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_026.flac",
+      "label": "fake",
+      "ml_score": 0.0904,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_027.flac",
+      "label": "fake",
+      "ml_score": 0.1865,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_028.flac",
+      "label": "fake",
+      "ml_score": 0.1169,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_029.flac",
+      "label": "fake",
+      "ml_score": 0.251,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_030.flac",
+      "label": "fake",
+      "ml_score": 0.0871,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_031.flac",
+      "label": "fake",
+      "ml_score": 0.2988,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_032.flac",
+      "label": "fake",
+      "ml_score": 0.3903,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_033.flac",
+      "label": "fake",
+      "ml_score": 0.3875,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_034.flac",
+      "label": "fake",
+      "ml_score": 0.17,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_035.flac",
+      "label": "fake",
+      "ml_score": 0.1896,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_036.flac",
+      "label": "fake",
+      "ml_score": 0.2608,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_037.flac",
+      "label": "fake",
+      "ml_score": 0.2255,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_038.flac",
+      "label": "fake",
+      "ml_score": 0.2887,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_039.flac",
+      "label": "fake",
+      "ml_score": 0.1384,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_040.flac",
+      "label": "fake",
+      "ml_score": 0.1269,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_041.flac",
+      "label": "fake",
+      "ml_score": 0.4502,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_042.flac",
+      "label": "fake",
+      "ml_score": 0.2965,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_043.flac",
+      "label": "fake",
+      "ml_score": 0.2048,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_044.flac",
+      "label": "fake",
+      "ml_score": 0.2965,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_045.flac",
+      "label": "fake",
+      "ml_score": 0.23,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_046.flac",
+      "label": "fake",
+      "ml_score": 0.1309,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_047.flac",
+      "label": "fake",
+      "ml_score": 0.3613,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_048.flac",
+      "label": "fake",
+      "ml_score": 0.4105,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_049.flac",
+      "label": "fake",
+      "ml_score": 0.1185,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_050.flac",
+      "label": "fake",
+      "ml_score": 0.2193,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_051.flac",
+      "label": "fake",
+      "ml_score": 0.1317,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_052.flac",
+      "label": "fake",
+      "ml_score": 0.1184,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_053.flac",
+      "label": "fake",
+      "ml_score": 0.1184,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_054.flac",
+      "label": "fake",
+      "ml_score": 0.1176,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_055.flac",
+      "label": "fake",
+      "ml_score": 0.107,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_056.flac",
+      "label": "fake",
+      "ml_score": 0.1631,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_057.flac",
+      "label": "fake",
+      "ml_score": 0.2327,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_058.flac",
+      "label": "fake",
+      "ml_score": 0.1412,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_059.flac",
+      "label": "fake",
+      "ml_score": 0.1669,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_060.flac",
+      "label": "fake",
+      "ml_score": 0.1947,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_061.flac",
+      "label": "fake",
+      "ml_score": 0.4218,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_062.flac",
+      "label": "fake",
+      "ml_score": 0.2014,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_063.flac",
+      "label": "fake",
+      "ml_score": 0.3354,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_064.flac",
+      "label": "fake",
+      "ml_score": 0.1155,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_065.flac",
+      "label": "fake",
+      "ml_score": 0.454,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_066.flac",
+      "label": "fake",
+      "ml_score": 0.243,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_067.flac",
+      "label": "fake",
+      "ml_score": 0.3063,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_068.flac",
+      "label": "fake",
+      "ml_score": 0.1274,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_069.flac",
+      "label": "fake",
+      "ml_score": 0.1684,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_070.flac",
+      "label": "fake",
+      "ml_score": 0.3392,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_071.flac",
+      "label": "fake",
+      "ml_score": 0.226,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_072.flac",
+      "label": "fake",
+      "ml_score": 0.1384,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_073.flac",
+      "label": "fake",
+      "ml_score": 0.1286,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_074.flac",
+      "label": "fake",
+      "ml_score": 0.151,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_075.flac",
+      "label": "fake",
+      "ml_score": 0.3916,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_076.flac",
+      "label": "fake",
+      "ml_score": 0.2132,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_077.flac",
+      "label": "fake",
+      "ml_score": 0.1393,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_078.flac",
+      "label": "fake",
+      "ml_score": 0.2573,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 4,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_079.flac",
+      "label": "fake",
+      "ml_score": 0.1769,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_080.flac",
+      "label": "fake",
+      "ml_score": 0.183,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_081.flac",
+      "label": "fake",
+      "ml_score": 0.4333,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_082.flac",
+      "label": "fake",
+      "ml_score": 0.5663,
+      "ml_verdict": "FAKE",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_083.flac",
+      "label": "fake",
+      "ml_score": 0.1217,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_084.flac",
+      "label": "fake",
+      "ml_score": 0.235,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_085.flac",
+      "label": "fake",
+      "ml_score": 0.1326,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_086.flac",
+      "label": "fake",
+      "ml_score": 0.1424,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_087.flac",
+      "label": "fake",
+      "ml_score": 0.2655,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_088.flac",
+      "label": "fake",
+      "ml_score": 0.347,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_089.flac",
+      "label": "fake",
+      "ml_score": 0.2982,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_090.flac",
+      "label": "fake",
+      "ml_score": 0.1668,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_091.flac",
+      "label": "fake",
+      "ml_score": 0.1638,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 3,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_092.flac",
+      "label": "fake",
+      "ml_score": 0.3152,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_093.flac",
+      "label": "fake",
+      "ml_score": 0.1201,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 0,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_094.flac",
+      "label": "fake",
+      "ml_score": 0.117,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_095.flac",
+      "label": "fake",
+      "ml_score": 0.1643,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_096.flac",
+      "label": "fake",
+      "ml_score": 0.2656,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_097.flac",
+      "label": "fake",
+      "ml_score": 0.2406,
+      "ml_verdict": "REAL",
+      "physics_verdict": "REAL",
+      "physics_checks_failed": 1,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_098.flac",
+      "label": "fake",
+      "ml_score": 0.2695,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    },
+    {
+      "file": "fake_099.flac",
+      "label": "fake",
+      "ml_score": 0.2097,
+      "ml_verdict": "REAL",
+      "physics_verdict": "FAKE",
+      "physics_checks_failed": 2,
+      "combined_verdict": "REAL"
+    }
+  ]
+}

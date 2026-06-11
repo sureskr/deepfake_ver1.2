@@ -34,3 +34,7 @@ Thumbs.db
 
 # Embedding caches
 **/w2v2_large_cache/
+
+# Test data (downloaded audio files)
+/test_data/
+download_test_data.py

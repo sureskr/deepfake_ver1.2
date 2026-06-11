@@ -1,0 +1,113 @@
+{
+  "dataset": "CodecFake",
+  "n_files": 200,
+  "threshold": 0.55,
+  "eer": 0.41,
+  "eer_threshold": 0.27876248955726624,
+  "score_dist": {
+    "real": {
+      "mean": 0.2633117538690567,
+      "median": 0.2487172931432724,
+      "std": 0.09841288260367427
+    },
+    "fake": {
+      "mean": 0.3272674218565226,
+      "median": 0.3166320025920868,
+      "std": 0.13839837471895508
+    }
+  },
+  "fake_by_codec": {
+    "funcodec-funcodec_zh_en_general_16k_nq32ds640": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.36971824509756906
+    },
+    "academicodec_hifi_16k_320d_large_uni": {
+      "n": 7,
+      "detected": 0,
+      "mean_score": 0.2755764563168798
+    },
+    "academicodec_hifi_16k_320d": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.35633666600499836
+    },
+    "audiodec_24k_320d": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.3550600473369871
+    },
+    "funcodec-funcodec_en_libritts-16k-nq32ds640": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.3695620277098247
+    },
+    "funcodec-funcodec_zh_en_general_16k_nq32ds320": {
+      "n": 7,
+      "detected": 0,
+      "mean_score": 0.24500236234494618
+    },
+    "descript-audio-codec-24khz": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.3313946926168033
+    },
+    "encodec_24khz": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.3414963611534664
+    },
+    "academicodec_hifi_24k_320d": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.369006838117327
+    },
+    "funcodec-funcodec_en_libritts-16k-nq32ds320": {
+      "n": 7,
+      "detected": 0,
+      "mean_score": 0.2663913049868175
+    },
+    "funcodec-funcodec_en_libritts-16k-gr1nq32ds320": {
+      "n": 7,
+      "detected": 1,
+      "mean_score": 0.3150351217814854
+    },
+    "descript-audio-codec-16khz": {
+      "n": 7,
+      "detected": 0,
+      "mean_score": 0.26763205230236053
+    },
+    "funcodec-funcodec_en_libritts-16k-gr8nq32ds320": {
+      "n": 7,
+      "detected": 2,
+      "mean_score": 0.3792273189340319
+    },
+    "descript-audio-codec-44khz": {
+      "n": 7,
+      "detected": 0,
+      "mean_score": 0.366862633398601
+    },
+    "SpeechTokenizer": {
+      "n": 2,
+      "detected": 0,
+      "mean_score": 0.23431364446878433
+    }
+  },
+  "real_by_codec": {
+    "genuine": {
+      "n": 100,
+      "flagged": 1,
+      "mean_score": 0.2633117538690567
+    }
+  },
+  "accuracy": 0.545,
+  "precision": 0.9090909090909091,
+  "recall": 0.1,
+  "f1": 0.18018018018018017,
+  "tp": 10,
+  "tn": 99,
+  "fp": 1,
+  "fn": 90,
+  "fpr": 0.01,
+  "fnr": 0.9
+}
