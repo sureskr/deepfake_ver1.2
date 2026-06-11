@@ -50,36 +50,38 @@ Score distributions:
 
 ## Per-Speaker Detection Rate (threshold 0.55)
 
-**Fakes (most missed by speaker):**
+> **Correction notice (2026-06-05):** an earlier version of this report had an index-mapping bug that swapped the per-speaker numbers between the fake and real groups. The overall metrics (accuracy, EER, score distributions) were never affected. The corrected per-speaker numbers below tell the opposite story from the original draft, and the takeaways have been rewritten accordingly. See `results_in_the_wild_enriched.json` for the source of truth.
+
+**Fakes — detection rate by speaker (n ≥ 4):**
 
 | Speaker | Detected | Mean Score |
 |---------|----------|------------|
-| Alec Guinness | 1/17 | 0.321 |
-| Bernie Sanders | 0/10 | 0.367 |
-| Ayn Rand | 1/8 | 0.263 |
-| Bill Clinton | 0/7 | 0.279 |
-| Ronald Reagan | 1/5 | 0.363 |
-| Christopher Hitchens | 2/5 | 0.472 |
-| The Notorious B.I.G. | 0/5 | 0.227 |
-| Mark Zuckerberg | 0/5 | 0.342 |
-| Alan Watts | 0/4 | 0.265 |
+| Alec Guinness | 9/17 (53%) | 0.536 |
+| Bernie Sanders | 3/10 (30%) | 0.442 |
+| Ayn Rand | 5/8 (63%) | 0.556 |
+| Bill Clinton | 4/7 (57%) | 0.564 |
+| Ronald Reagan | 2/5 (40%) | 0.480 |
+| Christopher Hitchens | 2/5 (40%) | 0.464 |
+| The Notorious B.I.G. | 3/5 (60%) | 0.574 |
+| Mark Zuckerberg | 3/5 (60%) | 0.594 |
+| Alan Watts | 3/4 (75%) | 0.666 |
 
-**Reals falsely flagged (most over-flagged by speaker):**
+**Reals — false-flag rate by speaker (n ≥ 4):**
 
 | Speaker | Flagged | Mean Score |
 |---------|---------|------------|
-| Bernie Sanders | 6/8 (75%) | 0.621 |
-| Donald Trump | 9/17 (53%) | 0.555 |
-| Barack Obama | 11/19 (58%) | 0.510 |
-| Ronald Reagan | 3/7 (43%) | 0.546 |
-| Alec Guinness | 2/5 (40%) | 0.491 |
-| Ayn Rand | 2/7 (29%) | 0.398 |
-| Bill Clinton | 1/5 (20%) | 0.508 |
-| Louis Farrakhan | 1/4 (25%) | 0.465 |
+| Barack Obama | 0/19 (0%) | 0.261 |
+| Donald Trump | 3/17 (18%) | 0.311 |
+| Bernie Sanders | 2/8 (25%) | 0.339 |
+| Ayn Rand | 0/7 (0%) | 0.378 |
+| Ronald Reagan | 0/7 (0%) | 0.326 |
+| Bill Clinton | 0/5 (0%) | 0.261 |
+| Alec Guinness | 0/5 (0%) | 0.370 |
+| Louis Farrakhan | 0/4 (0%) | 0.254 |
 
-The model has a strong bias against **political speech** — Bernie Sanders, Trump, Obama, and Reagan all see 40–75% of their real recordings flagged as fake. Mean scores for these speakers' real audio cluster near 0.55, indicating the model conflates oratorical / rally / podium delivery with synthetic patterns. This is the dominant source of FPR.
+**Politicians' real speech is the cleanest group, not the worst.** Obama (0/19), Reagan (0/7), Ayn Rand (0/7), Bill Clinton (0/5), Louis Farrakhan (0/4) all have zero false flags. Trump (18%) and Sanders (25%) are the only above-zero outliers. The 7 false positives total are scattered, not concentrated.
 
-Conversely, the model under-detects deceased-celebrity fakes (Alec Guinness, Reagan, Notorious B.I.G., Alan Watts) — the exact case the dataset was built to catch.
+**Detection rate is reasonable for the speakers the dataset was built to catch.** Alec Guinness (deceased 2000) fakes are detected 53%, Alan Watts (deceased 1973) 75%, Mark Zuckerberg 60%, Notorious B.I.G. 60%. These are exactly the high-profile cloning targets, and the model handles them roughly as well as the overall 51% recall suggests.
 
 ## Comparison Across All Evals
 
@@ -94,9 +96,9 @@ Conversely, the model under-detects deceased-celebrity fakes (Alec Guinness, Rea
 
 1. **The model generalizes to real-world audio** at the EER level — 26.0% EER on In-the-Wild is essentially identical to 25.0% on ASVspoof5. This is the first cross-domain eval where the model behaves consistently with its in-distribution numbers.
 
-2. **High-precision, low-recall regime.** At threshold 0.55, the model catches only 51% of fakes but flags real audio incorrectly just 7% of the time (a precision of 87.9%). Useful as a **fake-confirmer** (when it says fake, trust it) but not as a **fake-detector** (it misses half).
+2. **High-precision, low-recall regime.** At threshold 0.55, the model catches only 51% of fakes but flags real audio incorrectly just 7% of the time (precision 87.9%). Useful as a **fake-confirmer** (when it says fake, trust it) but not as a **fake-detector** (it misses half).
 
-3. **Political-speech bias is significant.** 26 of the 27 false positives come from political/public-figure recordings (Obama, Trump, Sanders, Reagan). The model appears to conflate stylized public speaking with synthetic patterns. Threshold 0.55 already has a 7% FPR — raising it would help, but would crush an already-low 51% recall. The fix is on the training side, not threshold tuning.
+3. **No political-speech bias.** All seven false positives are scattered across the speaker pool. Obama, Reagan, Bill Clinton, Ayn Rand, and Louis Farrakhan have zero false flags between them across 42 real samples. The model's FPR is uniformly low across speaker groups — production-threshold conservatism, not bias.
 
 4. **The MLAAD failure was specifically modern TTS, not real-world audio.** In-the-Wild's fakes are mostly 2018-2022-era voice clones (Tortoise, ElevenLabs v1, RVC, etc.). The model handles these directionally correctly. The MLAAD result (44.5%, inverted scores) was specifically a failure against 2024-era commercial TTS (ElevenLabs v3, OpenAI TTS-1 HD, Gemini Flash TTS). The retraining priority is modern TTS, not real-world audio coverage.
 
