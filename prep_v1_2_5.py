@@ -244,9 +244,10 @@ def load_mlaad(root: Path, engine_from: str) -> list[Item]:
                 meta_cache[d] = _mlaad_engine_for_dir(d, root)
             engine = meta_cache[d].get(path.name)
         if not engine:
-            # Path heuristic: MLAAD groups model files under .../<lang>/<architecture>/<model>/
+            # MLAAD v5 is flat: <lang>/<engine>/*.wav, so the engine is the
+            # immediate parent folder — which is also what --holdout-engines names.
             rel = path.relative_to(root).parts
-            engine = rel[-3] if len(rel) >= 3 else (rel[-2] if len(rel) >= 2 else "mlaad")
+            engine = rel[-2] if len(rel) >= 2 else "mlaad"
         items.append(Item(path, "fake", "mlaad", engine, path.stem))
     engines = sorted({i.group for i in items})
     print(f"  MLAAD loaded: {len(items)} fake across {len(engines)} engines")
@@ -402,11 +403,14 @@ def main() -> None:
     p.add_argument("--asvspoof-label-col", type=int)
     p.add_argument("--asvspoof-speaker-col", type=int)
     p.add_argument("--asvspoof-attack-col", type=int)
-    p.add_argument("--mlaad-engine-from", choices=["meta", "path"], default="meta",
-                   help="Derive MLAAD engine from meta.csv (default) or path heuristic.")
+    p.add_argument("--mlaad-engine-from", choices=["meta", "path"], default="path",
+                   help="Derive MLAAD engine from the parent folder name (default) or meta.csv.")
     p.add_argument("--holdout-engines", default="",
                    help="Comma-separated MLAAD engines forced into the TEST split "
                         "(e.g. 'xtts_v2,bark,vits'). Held-out engines never appear in train.")
+    p.add_argument("--asvspoof-max-fake", type=int, default=0,
+                   help="Randomly cap ASVspoof spoof files loaded (0=all). Use to stop the "
+                        "large ASVspoof spoof pool from drowning out MLAAD's modern TTS.")
     p.add_argument("--test-frac", type=float, default=0.15, help="Fraction of groups -> test.")
     p.add_argument("--val-frac", type=float, default=0.15, help="Fraction of groups -> validation.")
     p.add_argument("--cap-cal", type=int, default=0, help="Max files per class in calibration (0=all).")
@@ -441,6 +445,15 @@ def main() -> None:
 
     if not items:
         raise SystemExit("No sources provided. Pass --asvspoof-* and/or --mlaad-root.")
+
+    if args.asvspoof_max_fake:
+        asv_fake = [it for it in items if it.source == "asvspoof" and it.label == "fake"]
+        rest = [it for it in items if not (it.source == "asvspoof" and it.label == "fake")]
+        rng.shuffle(asv_fake)
+        kept = asv_fake[: args.asvspoof_max_fake]
+        print(f"  capping ASVspoof spoof: {len(asv_fake)} -> {len(kept)}")
+        items = rest + kept
+
     n_real = sum(i.label == "real" for i in items)
     n_fake = sum(i.label == "fake" for i in items)
     print(f"Total pool: {n_real} real / {n_fake} fake")
