@@ -32,8 +32,10 @@ for t in "${SHARDS[@]}"; do
 done
 echo "  ASVspoof flac files present: $(find "$RAW_ASV/flac_T" -name '*.flac' | wc -l)"
 
-echo "== 3/5 MLAAD English @1000/engine =="
-python scripts/download_mlaad_en.py --dest "$RAW_MLAAD" --n-per-engine 1000
+echo "== 3/5 MLAAD English @500/engine =="
+# 500 x 32 engines = 16k fake, ample against ~19k ASVspoof bonafide (the binding
+# class) once ASVspoof spoof is capped at 8k. More just invites HF rate limits.
+python scripts/download_mlaad_en.py --dest "$RAW_MLAAD" --n-per-engine 500
 
 echo "== 4/5 assemble data/v1_2_6 (ASVspoof-only real; disjoint splits) =="
 # ASVspoof spoof capped so real (~19k) is roughly the binding class after MLAAD.
