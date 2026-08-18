@@ -125,7 +125,7 @@ def resolve_v13_head_checkpoint() -> Path | None:
 def load_head_state_dict(ckpt_path: Path) -> dict:
     ckpt = torch.load(str(ckpt_path), map_location="cpu", weights_only=False)
     if isinstance(ckpt, dict):
-        for k in ("model_state_dict", "state_dict", "model"):
+        for k in ("model_state_dict", "state_dict", "model", "head_state_dict"):
             inner = ckpt.get(k)
             if isinstance(inner, dict) and inner and any(torch.is_tensor(v) for v in inner.values()):
                 return inner

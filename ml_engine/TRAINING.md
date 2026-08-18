@@ -44,6 +44,10 @@ py -c "import torch; print(torch.cuda.is_available())"
 
 ## 2. Dataset manifest (versioning)
 
+> Assembling a **fresh** dataset from public sources (ASVspoof5 / MLAAD)? Build the
+> split folders first with `prep_v1_2_5.py` — see **§11** — then come back here to
+> build the manifest over the folders it produced.
+
 Every dataset drop should produce a **manifest CSV** that is committed to git (audio stays in `data/`, which is gitignored).
 
 ### Schema
@@ -276,3 +280,70 @@ data/                                    ← gitignored
 | `train.py` / `vfx_repo/*` | Legacy v1.2.2 pipeline, different data layout |
 
 Use these only for historical reproduction or experiments with full understanding of their limitations.
+
+---
+
+## 11. Building a dataset from public sources (`prep_v1_2_5.py`)
+
+`prep_v1_2_5.py` (repo root) assembles the `data/<dataset>/{calibration,validation,test}/{real,fake}/`
+folders that §2–§4 expect, from **ASVspoof5** (real + spoof) and **MLAAD** (modern TTS).
+It does **not** download the datasets — point it at local, already-extracted roots.
+
+### Why it exists
+
+The v1.2.4 model handles ASVspoof-family attacks but fails on modern TTS (ElevenLabs,
+OpenAI, Gemini). Closing that gap needs modern-TTS fakes in training **and** an honest
+test. `prep_v1_2_5.py` enforces **generator-disjoint splits**: ASVspoof real split by
+speaker, ASVspoof spoof by attack id, MLAAD by TTS engine. A whole engine is held out
+for `test/`, so test accuracy measures generalization to *unseen* TTS rather than
+memorization. It aborts with a `LEAK:` error if any group would span splits.
+
+### Download (on the machine that will train — e.g. a cloud GPU box)
+
+```bash
+huggingface-cli download jungjee/asvspoof5 --repo-type dataset \
+  --local-dir data/raw/asvspoof5 --include "flac_T_aa.tar" "*.txt" "*.tsv"
+mkdir -p data/raw/asvspoof5/flac_T
+for t in data/raw/asvspoof5/flac_T_*.tar; do tar xf "$t" -C data/raw/asvspoof5/flac_T; done
+huggingface-cli download mueller91/MLAAD --repo-type dataset --local-dir data/raw/mlaad
+```
+
+Start with a **subset** (one `flac_T_*` shard) to validate the pipeline before scaling.
+
+### Assemble
+
+```bash
+python prep_v1_2_5.py \
+  --asvspoof-protocol data/raw/asvspoof5/ASVspoof5.train.metadata.txt \
+  --asvspoof-flac-dir data/raw/asvspoof5/flac_T \
+  --mlaad-root data/raw/mlaad \
+  --holdout-engines "elevenlabs,openai,xtts_v2,f5_tts" \
+  --out-root data/v1_2_5 --link --cap-cal 15000
+```
+
+Key flags:
+
+| Flag | Purpose |
+|------|---------|
+| `--holdout-engines` | MLAAD engines forced into `test/` (never appear in train) — pick the modern engines you want to prove generalization on |
+| `--test-frac` / `--val-frac` | Fraction of remaining groups → test / validation (default 0.15 each) |
+| `--cap-cal` / `--cap-val` / `--cap-test` | Cap files per class per split (`0` = all); `cap-cal 15000` keeps a first run fast |
+| `--link` | Symlink instead of copy (saves disk on cloud boxes) |
+| `--no-balance` | Keep native real/fake ratio (default trims to equal per split) |
+| `--asvspoof-*-col` | Override auto-detected protocol columns if a release surprises the parser |
+| `--dry-run` | Print the split plan without writing anything |
+
+The ASVspoof column layout varies by release; the script auto-detects the
+`bonafide/spoof`, filename, speaker, and attack columns and prints what it picked.
+
+### Then build the manifest and train
+
+```bash
+python ml_engine/scripts/build_manifest.py --dataset-root data/v1_2_5 \
+  --out data/manifests/v1_2_5.csv --source-tag v1_2_5
+cp ml_engine/config/training_v1_2_5.template.json ml_engine/config/training_v1_2_5.json
+python ml_engine/train_v1_2_4_proper.py --config ml_engine/config/training_v1_2_5.json --train
+```
+
+Writes `data/v1_2_5/prep_report.json` with per-split counts and the engines/speakers in
+each split, for reproducibility.
