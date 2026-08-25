@@ -1,0 +1,6512 @@
+{
+  "asvspoof5": {
+    "fake/E_0000003652.flac": {
+      "attack": "A24",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4328",
+      "subgroup": "A24"
+    },
+    "fake/E_0000004248.flac": {
+      "attack": "A27",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0135",
+      "subgroup": "A27"
+    },
+    "fake/E_0000027711.flac": {
+      "attack": "A25",
+      "codec": "C09",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2838",
+      "subgroup": "A25"
+    },
+    "fake/E_0000028151.flac": {
+      "attack": "A26",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2068",
+      "subgroup": "A26"
+    },
+    "fake/E_0000045418.flac": {
+      "attack": "A24",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5258",
+      "subgroup": "A24"
+    },
+    "fake/E_0000054846.flac": {
+      "attack": "A32",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0173",
+      "subgroup": "A32"
+    },
+    "fake/E_0000059499.flac": {
+      "attack": "A23",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0579",
+      "subgroup": "A23"
+    },
+    "fake/E_0000061052.flac": {
+      "attack": "A26",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0378",
+      "subgroup": "A26"
+    },
+    "fake/E_0000063540.flac": {
+      "attack": "A32",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0723",
+      "subgroup": "A32"
+    },
+    "fake/E_0000069338.flac": {
+      "attack": "A25",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3139",
+      "subgroup": "A25"
+    },
+    "fake/E_0000083516.flac": {
+      "attack": "A24",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5150",
+      "subgroup": "A24"
+    },
+    "fake/E_0000088236.flac": {
+      "attack": "A32",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1865",
+      "subgroup": "A32"
+    },
+    "fake/E_0000102025.flac": {
+      "attack": "A26",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2715",
+      "subgroup": "A26"
+    },
+    "fake/E_0000107331.flac": {
+      "attack": "A21",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1865",
+      "subgroup": "A21"
+    },
+    "fake/E_0000118851.flac": {
+      "attack": "A21",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1963",
+      "subgroup": "A21"
+    },
+    "fake/E_0000118931.flac": {
+      "attack": "A28",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2886",
+      "subgroup": "A28"
+    },
+    "fake/E_0000149641.flac": {
+      "attack": "A32",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5398",
+      "subgroup": "A32"
+    },
+    "fake/E_0000152221.flac": {
+      "attack": "A26",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0579",
+      "subgroup": "A26"
+    },
+    "fake/E_0000162085.flac": {
+      "attack": "A22",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0801",
+      "subgroup": "A22"
+    },
+    "fake/E_0000168972.flac": {
+      "attack": "A19",
+      "codec": "C10",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0317",
+      "subgroup": "A19"
+    },
+    "fake/E_0000186959.flac": {
+      "attack": "A25",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0159",
+      "subgroup": "A25"
+    },
+    "fake/E_0000188550.flac": {
+      "attack": "A27",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3374",
+      "subgroup": "A27"
+    },
+    "fake/E_0000195117.flac": {
+      "attack": "A25",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2945",
+      "subgroup": "A25"
+    },
+    "fake/E_0000199448.flac": {
+      "attack": "A29",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4783",
+      "subgroup": "A29"
+    },
+    "fake/E_0000200375.flac": {
+      "attack": "A26",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4092",
+      "subgroup": "A26"
+    },
+    "fake/E_0000201952.flac": {
+      "attack": "A17",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5395",
+      "subgroup": "A17"
+    },
+    "fake/E_0000248389.flac": {
+      "attack": "A19",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5258",
+      "subgroup": "A19"
+    },
+    "fake/E_0000249729.flac": {
+      "attack": "A22",
+      "codec": "C09",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2959",
+      "subgroup": "A22"
+    },
+    "fake/E_0000253706.flac": {
+      "attack": "A24",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1387",
+      "subgroup": "A24"
+    },
+    "fake/E_0000255505.flac": {
+      "attack": "A22",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3197",
+      "subgroup": "A22"
+    },
+    "fake/E_0000259988.flac": {
+      "attack": "A30",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4064",
+      "subgroup": "A30"
+    },
+    "fake/E_0000261216.flac": {
+      "attack": "A20",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0009",
+      "subgroup": "A20"
+    },
+    "fake/E_0000266114.flac": {
+      "attack": "A20",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3244",
+      "subgroup": "A20"
+    },
+    "fake/E_0000269181.flac": {
+      "attack": "A25",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4433",
+      "subgroup": "A25"
+    },
+    "fake/E_0000279821.flac": {
+      "attack": "A31",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3680",
+      "subgroup": "A31"
+    },
+    "fake/E_0000288924.flac": {
+      "attack": "A29",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2838",
+      "subgroup": "A29"
+    },
+    "fake/E_0000290498.flac": {
+      "attack": "A27",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0357",
+      "subgroup": "A27"
+    },
+    "fake/E_0000309826.flac": {
+      "attack": "A25",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4525",
+      "subgroup": "A25"
+    },
+    "fake/E_0000316432.flac": {
+      "attack": "A20",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1269",
+      "subgroup": "A20"
+    },
+    "fake/E_0000318834.flac": {
+      "attack": "A19",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1684",
+      "subgroup": "A19"
+    },
+    "fake/E_0000320330.flac": {
+      "attack": "A24",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3152",
+      "subgroup": "A24"
+    },
+    "fake/E_0000323683.flac": {
+      "attack": "A21",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3680",
+      "subgroup": "A21"
+    },
+    "fake/E_0000326088.flac": {
+      "attack": "A30",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3374",
+      "subgroup": "A30"
+    },
+    "fake/E_0000326253.flac": {
+      "attack": "A27",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1746",
+      "subgroup": "A27"
+    },
+    "fake/E_0000326607.flac": {
+      "attack": "A20",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4564",
+      "subgroup": "A20"
+    },
+    "fake/E_0000330802.flac": {
+      "attack": "A27",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2660",
+      "subgroup": "A27"
+    },
+    "fake/E_0000375785.flac": {
+      "attack": "A29",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4451",
+      "subgroup": "A29"
+    },
+    "fake/E_0000388019.flac": {
+      "attack": "A22",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5108",
+      "subgroup": "A22"
+    },
+    "fake/E_0000392280.flac": {
+      "attack": "A17",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0532",
+      "subgroup": "A17"
+    },
+    "fake/E_0000392562.flac": {
+      "attack": "A24",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5041",
+      "subgroup": "A24"
+    },
+    "fake/E_0000393732.flac": {
+      "attack": "A28",
+      "codec": "C09",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2194",
+      "subgroup": "A28"
+    },
+    "fake/E_0000401671.flac": {
+      "attack": "A29",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0658",
+      "subgroup": "A29"
+    },
+    "fake/E_0000426636.flac": {
+      "attack": "A22",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3860",
+      "subgroup": "A22"
+    },
+    "fake/E_0000431417.flac": {
+      "attack": "A21",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3919",
+      "subgroup": "A21"
+    },
+    "fake/E_0000437253.flac": {
+      "attack": "A26",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0067",
+      "subgroup": "A26"
+    },
+    "fake/E_0000442147.flac": {
+      "attack": "A26",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0284",
+      "subgroup": "A26"
+    },
+    "fake/E_0000445249.flac": {
+      "attack": "A30",
+      "codec": "C10",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1491",
+      "subgroup": "A30"
+    },
+    "fake/E_0000445676.flac": {
+      "attack": "A19",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3642",
+      "subgroup": "A19"
+    },
+    "fake/E_0000457502.flac": {
+      "attack": "A27",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0135",
+      "subgroup": "A27"
+    },
+    "fake/E_0000464724.flac": {
+      "attack": "A32",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3919",
+      "subgroup": "A32"
+    },
+    "fake/E_0000476283.flac": {
+      "attack": "A18",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2426",
+      "subgroup": "A18"
+    },
+    "fake/E_0000487339.flac": {
+      "attack": "A21",
+      "codec": "C02",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3874",
+      "subgroup": "A21"
+    },
+    "fake/E_0000526457.flac": {
+      "attack": "A20",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4774",
+      "subgroup": "A20"
+    },
+    "fake/E_0000545844.flac": {
+      "attack": "A29",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3552",
+      "subgroup": "A29"
+    },
+    "fake/E_0000546036.flac": {
+      "attack": "A22",
+      "codec": "C01",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1781",
+      "subgroup": "A22"
+    },
+    "fake/E_0000564133.flac": {
+      "attack": "A19",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2290",
+      "subgroup": "A19"
+    },
+    "fake/E_0000573583.flac": {
+      "attack": "A22",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0378",
+      "subgroup": "A22"
+    },
+    "fake/E_0000581947.flac": {
+      "attack": "A21",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0284",
+      "subgroup": "A21"
+    },
+    "fake/E_0000615311.flac": {
+      "attack": "A23",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4451",
+      "subgroup": "A23"
+    },
+    "fake/E_0000619464.flac": {
+      "attack": "A18",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0284",
+      "subgroup": "A18"
+    },
+    "fake/E_0000620681.flac": {
+      "attack": "A28",
+      "codec": "C01",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3879",
+      "subgroup": "A28"
+    },
+    "fake/E_0000666316.flac": {
+      "attack": "A26",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4612",
+      "subgroup": "A26"
+    },
+    "fake/E_0000686063.flac": {
+      "attack": "A32",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4564",
+      "subgroup": "A32"
+    },
+    "fake/E_0000699968.flac": {
+      "attack": "A19",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4118",
+      "subgroup": "A19"
+    },
+    "fake/E_0000701415.flac": {
+      "attack": "A23",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0002",
+      "subgroup": "A23"
+    },
+    "fake/E_0000703126.flac": {
+      "attack": "A32",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5408",
+      "subgroup": "A32"
+    },
+    "fake/E_0000705711.flac": {
+      "attack": "A32",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0723",
+      "subgroup": "A32"
+    },
+    "fake/E_0000744360.flac": {
+      "attack": "A29",
+      "codec": "C03",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1464",
+      "subgroup": "A29"
+    },
+    "fake/E_0000751024.flac": {
+      "attack": "A28",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5398",
+      "subgroup": "A28"
+    },
+    "fake/E_0000759160.flac": {
+      "attack": "A21",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2664",
+      "subgroup": "A21"
+    },
+    "fake/E_0000766736.flac": {
+      "attack": "A26",
+      "codec": "C09",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2081",
+      "subgroup": "A26"
+    },
+    "fake/E_0000768791.flac": {
+      "attack": "A17",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5302",
+      "subgroup": "A17"
+    },
+    "fake/E_0000777284.flac": {
+      "attack": "A17",
+      "codec": "C01",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4238",
+      "subgroup": "A17"
+    },
+    "fake/E_0000788516.flac": {
+      "attack": "A23",
+      "codec": "C07",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_5271",
+      "subgroup": "A23"
+    },
+    "fake/E_0000804085.flac": {
+      "attack": "A18",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0915",
+      "subgroup": "A18"
+    },
+    "fake/E_0000864233.flac": {
+      "attack": "A30",
+      "codec": "C10",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3776",
+      "subgroup": "A30"
+    },
+    "fake/E_0000866137.flac": {
+      "attack": "A26",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3441",
+      "subgroup": "A26"
+    },
+    "fake/E_0000872463.flac": {
+      "attack": "A21",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1686",
+      "subgroup": "A21"
+    },
+    "fake/E_0000887837.flac": {
+      "attack": "A24",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0008",
+      "subgroup": "A24"
+    },
+    "fake/E_0000906884.flac": {
+      "attack": "A28",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2270",
+      "subgroup": "A28"
+    },
+    "fake/E_0000922071.flac": {
+      "attack": "A29",
+      "codec": "C04",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_2943",
+      "subgroup": "A29"
+    },
+    "fake/E_0000944755.flac": {
+      "attack": "A26",
+      "codec": "C10",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_4554",
+      "subgroup": "A26"
+    },
+    "fake/E_0000950987.flac": {
+      "attack": "A32",
+      "codec": "C10",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1389",
+      "subgroup": "A32"
+    },
+    "fake/E_0000952071.flac": {
+      "attack": "A21",
+      "codec": "C09",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0915",
+      "subgroup": "A21"
+    },
+    "fake/E_0000962592.flac": {
+      "attack": "A19",
+      "codec": "C06",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3919",
+      "subgroup": "A19"
+    },
+    "fake/E_0000985022.flac": {
+      "attack": "A28",
+      "codec": "-",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1170",
+      "subgroup": "A28"
+    },
+    "fake/E_0000988010.flac": {
+      "attack": "A31",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_1021",
+      "subgroup": "A31"
+    },
+    "fake/E_0001005413.flac": {
+      "attack": "A21",
+      "codec": "C05",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0579",
+      "subgroup": "A21"
+    },
+    "fake/E_0001008526.flac": {
+      "attack": "A19",
+      "codec": "C08",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_0237",
+      "subgroup": "A19"
+    },
+    "fake/E_0001010300.flac": {
+      "attack": "A22",
+      "codec": "C11",
+      "label": 1,
+      "label_matches_protocol": true,
+      "protocol_label": "spoof",
+      "speaker": "E_3139",
+      "subgroup": "A22"
+    },
+    "real/E_0000007662.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5427",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000024370.flac": {
+      "attack": "bonafide",
+      "codec": "C01",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4240",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000057807.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0009",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000067756.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0424",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000077522.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4073",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000093696.flac": {
+      "attack": "bonafide",
+      "codec": "C09",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2334",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000111870.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1865",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000113090.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1192",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000128744.flac": {
+      "attack": "bonafide",
+      "codec": "C01",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0984",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000157655.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0011",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000174762.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4249",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000189610.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0202",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000199195.flac": {
+      "attack": "bonafide",
+      "codec": "C10",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3463",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000212830.flac": {
+      "attack": "bonafide",
+      "codec": "C10",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2618",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000212916.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3184",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000218057.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3244",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000218100.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2715",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000220167.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3858",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000231993.flac": {
+      "attack": "bonafide",
+      "codec": "C10",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2959",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000243846.flac": {
+      "attack": "bonafide",
+      "codec": "C09",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1934",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000244527.flac": {
+      "attack": "bonafide",
+      "codec": "C10",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5306",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000258329.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4538",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000267596.flac": {
+      "attack": "bonafide",
+      "codec": "C09",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3466",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000274402.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4836",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000279501.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1370",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000284052.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3640",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000297406.flac": {
+      "attack": "bonafide",
+      "codec": "C04",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0033",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000300235.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0034",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000301101.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0060",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000309815.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1389",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000316097.flac": {
+      "attack": "bonafide",
+      "codec": "C08",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2333",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000324440.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3471",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000340345.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4082",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000342363.flac": {
+      "attack": "bonafide",
+      "codec": "C09",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4445",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000356812.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1744",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000365251.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1446",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000372569.flac": {
+      "attack": "bonafide",
+      "codec": "C04",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5411",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000378215.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2430",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000378894.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3498",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000386872.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3645",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000395445.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3360",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000395669.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1746",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000406588.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3360",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000440960.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0017",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000453314.flac": {
+      "attack": "bonafide",
+      "codec": "C04",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0112",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000453757.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4181",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000464506.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3377",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000467238.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1010",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000483820.flac": {
+      "attack": "bonafide",
+      "codec": "C01",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0285",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000491411.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4249",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000493914.flac": {
+      "attack": "bonafide",
+      "codec": "C01",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3151",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000494199.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4378",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000560695.flac": {
+      "attack": "bonafide",
+      "codec": "C08",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3739",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000582627.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3208",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000586286.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0786",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000591251.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3268",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000598235.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3184",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000600578.flac": {
+      "attack": "bonafide",
+      "codec": "C08",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3160",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000616814.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4863",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000620787.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0369",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000626300.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0369",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000630850.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0017",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000641022.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3262",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000648179.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5185",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000675876.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4526",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000685013.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1549",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000686650.flac": {
+      "attack": "bonafide",
+      "codec": "C01",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2838",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000698076.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3642",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000701530.flac": {
+      "attack": "bonafide",
+      "codec": "C01",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2081",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000705585.flac": {
+      "attack": "bonafide",
+      "codec": "C04",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1773",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000719769.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3860",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000724139.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0284",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000743772.flac": {
+      "attack": "bonafide",
+      "codec": "C11",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2958",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000744570.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4249",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000755039.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0365",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000760945.flac": {
+      "attack": "bonafide",
+      "codec": "C08",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3374",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000775283.flac": {
+      "attack": "bonafide",
+      "codec": "C08",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0784",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000777245.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4704",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000786412.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1994",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000798037.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0967",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000805397.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3200",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000818148.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5425",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000833269.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4004",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000843070.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1870",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000854001.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1758",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000863881.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5147",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000878321.flac": {
+      "attack": "bonafide",
+      "codec": "C06",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1004",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000888608.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_5117",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000892258.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0167",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000907631.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2501",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000911700.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1238",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000919461.flac": {
+      "attack": "bonafide",
+      "codec": "C02",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0067",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000932424.flac": {
+      "attack": "bonafide",
+      "codec": "C03",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_2321",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000937511.flac": {
+      "attack": "bonafide",
+      "codec": "C10",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0876",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000942062.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1220",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000945935.flac": {
+      "attack": "bonafide",
+      "codec": "C10",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3601",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000997926.flac": {
+      "attack": "bonafide",
+      "codec": "C07",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_1256",
+      "subgroup": "bonafide"
+    },
+    "real/E_0000999248.flac": {
+      "attack": "bonafide",
+      "codec": "C05",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_4004",
+      "subgroup": "bonafide"
+    },
+    "real/E_0001005631.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_0658",
+      "subgroup": "bonafide"
+    },
+    "real/E_0001008919.flac": {
+      "attack": "bonafide",
+      "codec": "-",
+      "label": 0,
+      "label_matches_protocol": true,
+      "protocol_label": "bonafide",
+      "speaker": "E_3982",
+      "subgroup": "bonafide"
+    }
+  },
+  "codecfake": {
+    "fake/fake_000.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p261_202.wav",
+      "speaker": "p261",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_001.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p230_175.wav",
+      "speaker": "p230",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_002.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p351_374.wav",
+      "speaker": "p351",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_003.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p254_269.wav",
+      "speaker": "p254",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_004.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p330_261.wav",
+      "speaker": "p330",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_005.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p234_283.wav",
+      "speaker": "p234",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_006.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds640+p360_252.wav",
+      "speaker": "p360",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds640"
+    },
+    "fake/fake_007.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p276_065.wav",
+      "speaker": "p276",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_008.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p230_243.wav",
+      "speaker": "p230",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_009.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p260_058.wav",
+      "speaker": "p260",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_010.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p360_077.wav",
+      "speaker": "p360",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_011.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p270_407.wav",
+      "speaker": "p270",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_012.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p233_257.wav",
+      "speaker": "p233",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_013.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d_large_uni+p340_417.wav",
+      "speaker": "p340",
+      "subgroup": "academicodec_hifi_16k_320d_large_uni"
+    },
+    "fake/fake_014.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p307_014.wav",
+      "speaker": "p307",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_015.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p254_372.wav",
+      "speaker": "p254",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_016.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p329_291.wav",
+      "speaker": "p329",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_017.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p255_124.wav",
+      "speaker": "p255",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_018.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p293_147.wav",
+      "speaker": "p293",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_019.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p297_416.wav",
+      "speaker": "p297",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_020.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_16k_320d+p285_106.wav",
+      "speaker": "p285",
+      "subgroup": "academicodec_hifi_16k_320d"
+    },
+    "fake/fake_021.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p227_352.wav",
+      "speaker": "p227",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_022.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p285_186.wav",
+      "speaker": "p285",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_023.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p266_294.wav",
+      "speaker": "p266",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_024.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p345_255.wav",
+      "speaker": "p345",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_025.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p227_337.wav",
+      "speaker": "p227",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_026.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p305_422.wav",
+      "speaker": "p305",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_027.wav": {
+      "label": 1,
+      "orig_filename": "audiodec_24k_320d+p333_315.wav",
+      "speaker": "p333",
+      "subgroup": "audiodec_24k_320d"
+    },
+    "fake/fake_028.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p329_371.wav",
+      "speaker": "p329",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_029.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p239_046.wav",
+      "speaker": "p239",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_030.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p317_370.wav",
+      "speaker": "p317",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_031.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p334_331.wav",
+      "speaker": "p334",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_032.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p286_035.wav",
+      "speaker": "p286",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_033.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p345_127.wav",
+      "speaker": "p345",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_034.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds640+p347_201.wav",
+      "speaker": "p347",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds640"
+    },
+    "fake/fake_035.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p341_297.wav",
+      "speaker": "p341",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_036.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p272_109.wav",
+      "speaker": "p272",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_037.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p307_331.wav",
+      "speaker": "p307",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_038.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p302_102.wav",
+      "speaker": "p302",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_039.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p283_302.wav",
+      "speaker": "p283",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_040.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p238_410.wav",
+      "speaker": "p238",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_041.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_zh_en_general_16k_nq32ds320+p282_152.wav",
+      "speaker": "p282",
+      "subgroup": "funcodec-funcodec_zh_en_general_16k_nq32ds320"
+    },
+    "fake/fake_042.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p306_108.wav",
+      "speaker": "p306",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_043.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p234_269.wav",
+      "speaker": "p234",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_044.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p276_064.wav",
+      "speaker": "p276",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_045.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p351_253.wav",
+      "speaker": "p351",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_046.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p279_355.wav",
+      "speaker": "p279",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_047.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p256_025.wav",
+      "speaker": "p256",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_048.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-24khz+p297_062.wav",
+      "speaker": "p297",
+      "subgroup": "descript-audio-codec-24khz"
+    },
+    "fake/fake_049.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p292_303.wav",
+      "speaker": "p292",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_050.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p266_229.wav",
+      "speaker": "p266",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_051.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p341_403.wav",
+      "speaker": "p341",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_052.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p314_194.wav",
+      "speaker": "p314",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_053.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p253_103.wav",
+      "speaker": "p253",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_054.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p301_249.wav",
+      "speaker": "p301",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_055.wav": {
+      "label": 1,
+      "orig_filename": "encodec_24khz+p317_099.wav",
+      "speaker": "p317",
+      "subgroup": "encodec_24khz"
+    },
+    "fake/fake_056.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p263_114.wav",
+      "speaker": "p263",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_057.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p283_422.wav",
+      "speaker": "p283",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_058.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p236_314.wav",
+      "speaker": "p236",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_059.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p232_340.wav",
+      "speaker": "p232",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_060.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p263_283.wav",
+      "speaker": "p263",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_061.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p339_412.wav",
+      "speaker": "p339",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_062.wav": {
+      "label": 1,
+      "orig_filename": "academicodec_hifi_24k_320d+p246_248.wav",
+      "speaker": "p246",
+      "subgroup": "academicodec_hifi_24k_320d"
+    },
+    "fake/fake_063.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p333_042.wav",
+      "speaker": "p333",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_064.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p339_308.wav",
+      "speaker": "p339",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_065.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p244_339.wav",
+      "speaker": "p244",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_066.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p260_106.wav",
+      "speaker": "p260",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_067.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p312_373.wav",
+      "speaker": "p312",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_068.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p334_388.wav",
+      "speaker": "p334",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_069.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-nq32ds320+p280_204.wav",
+      "speaker": "p280",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-nq32ds320"
+    },
+    "fake/fake_070.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p281_073.wav",
+      "speaker": "p281",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_071.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p361_384.wav",
+      "speaker": "p361",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_072.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p284_230.wav",
+      "speaker": "p284",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_073.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p240_128.wav",
+      "speaker": "p240",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_074.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p272_341.wav",
+      "speaker": "p272",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_075.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p307_370.wav",
+      "speaker": "p307",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_076.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320+p347_388.wav",
+      "speaker": "p347",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr1nq32ds320"
+    },
+    "fake/fake_077.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p305_012.wav",
+      "speaker": "p305",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_078.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p284_381.wav",
+      "speaker": "p284",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_079.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p253_377.wav",
+      "speaker": "p253",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_080.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p252_375.wav",
+      "speaker": "p252",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_081.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p294_110.wav",
+      "speaker": "p294",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_082.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p310_077.wav",
+      "speaker": "p310",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_083.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-16khz+p233_281.wav",
+      "speaker": "p233",
+      "subgroup": "descript-audio-codec-16khz"
+    },
+    "fake/fake_084.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p335_173.wav",
+      "speaker": "p335",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_085.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p257_009.wav",
+      "speaker": "p257",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_086.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p243_317.wav",
+      "speaker": "p243",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_087.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p225_054.wav",
+      "speaker": "p225",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_088.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p257_073.wav",
+      "speaker": "p257",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_089.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p287_180.wav",
+      "speaker": "p287",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_090.wav": {
+      "label": 1,
+      "orig_filename": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320+p274_165.wav",
+      "speaker": "p274",
+      "subgroup": "funcodec-funcodec_en_libritts-16k-gr8nq32ds320"
+    },
+    "fake/fake_091.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p244_179.wav",
+      "speaker": "p244",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_092.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p363_266.wav",
+      "speaker": "p363",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_093.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p232_185.wav",
+      "speaker": "p232",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_094.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p314_280.wav",
+      "speaker": "p314",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_095.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p302_097.wav",
+      "speaker": "p302",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_096.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p317_382.wav",
+      "speaker": "p317",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_097.wav": {
+      "label": 1,
+      "orig_filename": "descript-audio-codec-44khz+p255_217.wav",
+      "speaker": "p255",
+      "subgroup": "descript-audio-codec-44khz"
+    },
+    "fake/fake_098.wav": {
+      "label": 1,
+      "orig_filename": "SpeechTokenizer+p363_014.wav",
+      "speaker": "p363",
+      "subgroup": "SpeechTokenizer"
+    },
+    "fake/fake_099.wav": {
+      "label": 1,
+      "orig_filename": "SpeechTokenizer+p270_039.wav",
+      "speaker": "p270",
+      "subgroup": "SpeechTokenizer"
+    },
+    "real/real_000.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p286_158.wav",
+      "speaker": "p286",
+      "subgroup": "genuine"
+    },
+    "real/real_001.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p244_083.wav",
+      "speaker": "p244",
+      "subgroup": "genuine"
+    },
+    "real/real_002.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p339_210.wav",
+      "speaker": "p339",
+      "subgroup": "genuine"
+    },
+    "real/real_003.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p361_181.wav",
+      "speaker": "p361",
+      "subgroup": "genuine"
+    },
+    "real/real_004.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p323_259.wav",
+      "speaker": "p323",
+      "subgroup": "genuine"
+    },
+    "real/real_005.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p244_001.wav",
+      "speaker": "p244",
+      "subgroup": "genuine"
+    },
+    "real/real_006.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p259_382.wav",
+      "speaker": "p259",
+      "subgroup": "genuine"
+    },
+    "real/real_007.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p280_266.wav",
+      "speaker": "p280",
+      "subgroup": "genuine"
+    },
+    "real/real_008.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p233_182.wav",
+      "speaker": "p233",
+      "subgroup": "genuine"
+    },
+    "real/real_009.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p265_176.wav",
+      "speaker": "p265",
+      "subgroup": "genuine"
+    },
+    "real/real_010.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p238_380.wav",
+      "speaker": "p238",
+      "subgroup": "genuine"
+    },
+    "real/real_011.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p313_299.wav",
+      "speaker": "p313",
+      "subgroup": "genuine"
+    },
+    "real/real_012.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p281_040.wav",
+      "speaker": "p281",
+      "subgroup": "genuine"
+    },
+    "real/real_013.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p247_272.wav",
+      "speaker": "p247",
+      "subgroup": "genuine"
+    },
+    "real/real_014.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p302_100.wav",
+      "speaker": "p302",
+      "subgroup": "genuine"
+    },
+    "real/real_015.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p239_384.wav",
+      "speaker": "p239",
+      "subgroup": "genuine"
+    },
+    "real/real_016.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p308_141.wav",
+      "speaker": "p308",
+      "subgroup": "genuine"
+    },
+    "real/real_017.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p248_167.wav",
+      "speaker": "p248",
+      "subgroup": "genuine"
+    },
+    "real/real_018.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p336_308.wav",
+      "speaker": "p336",
+      "subgroup": "genuine"
+    },
+    "real/real_019.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p255_123.wav",
+      "speaker": "p255",
+      "subgroup": "genuine"
+    },
+    "real/real_020.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p301_217.wav",
+      "speaker": "p301",
+      "subgroup": "genuine"
+    },
+    "real/real_021.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p231_239.wav",
+      "speaker": "p231",
+      "subgroup": "genuine"
+    },
+    "real/real_022.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p286_233.wav",
+      "speaker": "p286",
+      "subgroup": "genuine"
+    },
+    "real/real_023.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p283_246.wav",
+      "speaker": "p283",
+      "subgroup": "genuine"
+    },
+    "real/real_024.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p283_018.wav",
+      "speaker": "p283",
+      "subgroup": "genuine"
+    },
+    "real/real_025.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p255_248.wav",
+      "speaker": "p255",
+      "subgroup": "genuine"
+    },
+    "real/real_026.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p336_041.wav",
+      "speaker": "p336",
+      "subgroup": "genuine"
+    },
+    "real/real_027.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p239_026.wav",
+      "speaker": "p239",
+      "subgroup": "genuine"
+    },
+    "real/real_028.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p303_327.wav",
+      "speaker": "p303",
+      "subgroup": "genuine"
+    },
+    "real/real_029.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p315_022.wav",
+      "speaker": "p315",
+      "subgroup": "genuine"
+    },
+    "real/real_030.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p302_152.wav",
+      "speaker": "p302",
+      "subgroup": "genuine"
+    },
+    "real/real_031.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p240_029.wav",
+      "speaker": "p240",
+      "subgroup": "genuine"
+    },
+    "real/real_032.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p247_382.wav",
+      "speaker": "p247",
+      "subgroup": "genuine"
+    },
+    "real/real_033.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p333_236.wav",
+      "speaker": "p333",
+      "subgroup": "genuine"
+    },
+    "real/real_034.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p340_332.wav",
+      "speaker": "p340",
+      "subgroup": "genuine"
+    },
+    "real/real_035.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p336_359.wav",
+      "speaker": "p336",
+      "subgroup": "genuine"
+    },
+    "real/real_036.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p363_318.wav",
+      "speaker": "p363",
+      "subgroup": "genuine"
+    },
+    "real/real_037.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p329_234.wav",
+      "speaker": "p329",
+      "subgroup": "genuine"
+    },
+    "real/real_038.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p264_054.wav",
+      "speaker": "p264",
+      "subgroup": "genuine"
+    },
+    "real/real_039.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p279_347.wav",
+      "speaker": "p279",
+      "subgroup": "genuine"
+    },
+    "real/real_040.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p351_201.wav",
+      "speaker": "p351",
+      "subgroup": "genuine"
+    },
+    "real/real_041.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p236_200.wav",
+      "speaker": "p236",
+      "subgroup": "genuine"
+    },
+    "real/real_042.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p351_089.wav",
+      "speaker": "p351",
+      "subgroup": "genuine"
+    },
+    "real/real_043.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p234_260.wav",
+      "speaker": "p234",
+      "subgroup": "genuine"
+    },
+    "real/real_044.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p267_008.wav",
+      "speaker": "p267",
+      "subgroup": "genuine"
+    },
+    "real/real_045.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p256_131.wav",
+      "speaker": "p256",
+      "subgroup": "genuine"
+    },
+    "real/real_046.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p254_069.wav",
+      "speaker": "p254",
+      "subgroup": "genuine"
+    },
+    "real/real_047.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p292_037.wav",
+      "speaker": "p292",
+      "subgroup": "genuine"
+    },
+    "real/real_048.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p316_218.wav",
+      "speaker": "p316",
+      "subgroup": "genuine"
+    },
+    "real/real_049.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p273_032.wav",
+      "speaker": "p273",
+      "subgroup": "genuine"
+    },
+    "real/real_050.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p341_390.wav",
+      "speaker": "p341",
+      "subgroup": "genuine"
+    },
+    "real/real_051.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p240_212.wav",
+      "speaker": "p240",
+      "subgroup": "genuine"
+    },
+    "real/real_052.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p269_232.wav",
+      "speaker": "p269",
+      "subgroup": "genuine"
+    },
+    "real/real_053.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p311_297.wav",
+      "speaker": "p311",
+      "subgroup": "genuine"
+    },
+    "real/real_054.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p258_319.wav",
+      "speaker": "p258",
+      "subgroup": "genuine"
+    },
+    "real/real_055.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p288_279.wav",
+      "speaker": "p288",
+      "subgroup": "genuine"
+    },
+    "real/real_056.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p343_298.wav",
+      "speaker": "p343",
+      "subgroup": "genuine"
+    },
+    "real/real_057.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p276_323.wav",
+      "speaker": "p276",
+      "subgroup": "genuine"
+    },
+    "real/real_058.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p313_394.wav",
+      "speaker": "p313",
+      "subgroup": "genuine"
+    },
+    "real/real_059.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p308_203.wav",
+      "speaker": "p308",
+      "subgroup": "genuine"
+    },
+    "real/real_060.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p334_116.wav",
+      "speaker": "p334",
+      "subgroup": "genuine"
+    },
+    "real/real_061.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p280_340.wav",
+      "speaker": "p280",
+      "subgroup": "genuine"
+    },
+    "real/real_062.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p318_264.wav",
+      "speaker": "p318",
+      "subgroup": "genuine"
+    },
+    "real/real_063.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p257_329.wav",
+      "speaker": "p257",
+      "subgroup": "genuine"
+    },
+    "real/real_064.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p316_347.wav",
+      "speaker": "p316",
+      "subgroup": "genuine"
+    },
+    "real/real_065.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p245_156.wav",
+      "speaker": "p245",
+      "subgroup": "genuine"
+    },
+    "real/real_066.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p313_098.wav",
+      "speaker": "p313",
+      "subgroup": "genuine"
+    },
+    "real/real_067.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p281_187.wav",
+      "speaker": "p281",
+      "subgroup": "genuine"
+    },
+    "real/real_068.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p300_080.wav",
+      "speaker": "p300",
+      "subgroup": "genuine"
+    },
+    "real/real_069.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p312_056.wav",
+      "speaker": "p312",
+      "subgroup": "genuine"
+    },
+    "real/real_070.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p333_163.wav",
+      "speaker": "p333",
+      "subgroup": "genuine"
+    },
+    "real/real_071.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p274_250.wav",
+      "speaker": "p274",
+      "subgroup": "genuine"
+    },
+    "real/real_072.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p312_089.wav",
+      "speaker": "p312",
+      "subgroup": "genuine"
+    },
+    "real/real_073.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p272_005.wav",
+      "speaker": "p272",
+      "subgroup": "genuine"
+    },
+    "real/real_074.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p330_313.wav",
+      "speaker": "p330",
+      "subgroup": "genuine"
+    },
+    "real/real_075.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p284_310.wav",
+      "speaker": "p284",
+      "subgroup": "genuine"
+    },
+    "real/real_076.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p280_020.wav",
+      "speaker": "p280",
+      "subgroup": "genuine"
+    },
+    "real/real_077.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p280_259.wav",
+      "speaker": "p280",
+      "subgroup": "genuine"
+    },
+    "real/real_078.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p241_291.wav",
+      "speaker": "p241",
+      "subgroup": "genuine"
+    },
+    "real/real_079.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p259_176.wav",
+      "speaker": "p259",
+      "subgroup": "genuine"
+    },
+    "real/real_080.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p304_351.wav",
+      "speaker": "p304",
+      "subgroup": "genuine"
+    },
+    "real/real_081.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p244_182.wav",
+      "speaker": "p244",
+      "subgroup": "genuine"
+    },
+    "real/real_082.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p274_078.wav",
+      "speaker": "p274",
+      "subgroup": "genuine"
+    },
+    "real/real_083.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p374_230.wav",
+      "speaker": "p374",
+      "subgroup": "genuine"
+    },
+    "real/real_084.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p293_037.wav",
+      "speaker": "p293",
+      "subgroup": "genuine"
+    },
+    "real/real_085.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p276_158.wav",
+      "speaker": "p276",
+      "subgroup": "genuine"
+    },
+    "real/real_086.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p316_243.wav",
+      "speaker": "p316",
+      "subgroup": "genuine"
+    },
+    "real/real_087.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p227_205.wav",
+      "speaker": "p227",
+      "subgroup": "genuine"
+    },
+    "real/real_088.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p277_180.wav",
+      "speaker": "p277",
+      "subgroup": "genuine"
+    },
+    "real/real_089.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p271_384.wav",
+      "speaker": "p271",
+      "subgroup": "genuine"
+    },
+    "real/real_090.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p268_269.wav",
+      "speaker": "p268",
+      "subgroup": "genuine"
+    },
+    "real/real_091.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p246_075.wav",
+      "speaker": "p246",
+      "subgroup": "genuine"
+    },
+    "real/real_092.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p334_167.wav",
+      "speaker": "p334",
+      "subgroup": "genuine"
+    },
+    "real/real_093.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p297_067.wav",
+      "speaker": "p297",
+      "subgroup": "genuine"
+    },
+    "real/real_094.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p288_021.wav",
+      "speaker": "p288",
+      "subgroup": "genuine"
+    },
+    "real/real_095.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p360_418.wav",
+      "speaker": "p360",
+      "subgroup": "genuine"
+    },
+    "real/real_096.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p361_042.wav",
+      "speaker": "p361",
+      "subgroup": "genuine"
+    },
+    "real/real_097.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p241_207.wav",
+      "speaker": "p241",
+      "subgroup": "genuine"
+    },
+    "real/real_098.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p245_321.wav",
+      "speaker": "p245",
+      "subgroup": "genuine"
+    },
+    "real/real_099.wav": {
+      "label": 0,
+      "orig_filename": "genuine+p336_138.wav",
+      "speaker": "p336",
+      "subgroup": "genuine"
+    }
+  },
+  "deepfake-audio": {
+    "fake/fake_000.flac": {
+      "label": 1,
+      "orig_filename": "sp_0001_part_016.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_001.flac": {
+      "label": 1,
+      "orig_filename": "hu_0001_c_part_012.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_002.flac": {
+      "label": 1,
+      "orig_filename": "po_0007_c_part_016.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_003.flac": {
+      "label": 1,
+      "orig_filename": "sp_0009_part_001.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_004.flac": {
+      "label": 1,
+      "orig_filename": "lv_0001_c_part_018.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_005.flac": {
+      "label": 1,
+      "orig_filename": "sp_0007_part_009.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_006.flac": {
+      "label": 1,
+      "orig_filename": "el_0001_c_part_002.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_007.flac": {
+      "label": 1,
+      "orig_filename": "sp_0006_part_007.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_008.flac": {
+      "label": 1,
+      "orig_filename": "hg_0007_part_002.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_009.flac": {
+      "label": 1,
+      "orig_filename": "lv_0003_c_part_020.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_010.flac": {
+      "label": 1,
+      "orig_filename": "po_0007_part_005.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_011.flac": {
+      "label": 1,
+      "orig_filename": "el_0011_c_part_017.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_012.flac": {
+      "label": 1,
+      "orig_filename": "sp_0007_part_003.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_013.flac": {
+      "label": 1,
+      "orig_filename": "lv_0004_part_007.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_014.flac": {
+      "label": 1,
+      "orig_filename": "sp_0008_c_part_010.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_015.flac": {
+      "label": 1,
+      "orig_filename": "hu_0002_part_006.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_016.flac": {
+      "label": 1,
+      "orig_filename": "sp_0001_c_part_022.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_017.flac": {
+      "label": 1,
+      "orig_filename": "el_0012_c_part_010.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_018.flac": {
+      "label": 1,
+      "orig_filename": "sp_0002_part_005.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_019.flac": {
+      "label": 1,
+      "orig_filename": "hg_0008_part_001.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_020.flac": {
+      "label": 1,
+      "orig_filename": "sp_0003_part_007.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_021.flac": {
+      "label": 1,
+      "orig_filename": "po_0007_part_006.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_022.flac": {
+      "label": 1,
+      "orig_filename": "sp_0004_part_013.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_023.flac": {
+      "label": 1,
+      "orig_filename": "sp_0006_c_part_021.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_024.flac": {
+      "label": 1,
+      "orig_filename": "hu_0008_part_002.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_025.flac": {
+      "label": 1,
+      "orig_filename": "hg_0013_c_part_006.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_026.flac": {
+      "label": 1,
+      "orig_filename": "sp_0005_c_part_008.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_027.flac": {
+      "label": 1,
+      "orig_filename": "sp_0002_c_part_016.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_028.flac": {
+      "label": 1,
+      "orig_filename": "hu_0003_part_001.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_029.flac": {
+      "label": 1,
+      "orig_filename": "lv_0002_part_001.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_030.flac": {
+      "label": 1,
+      "orig_filename": "hg_0009_part_002.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_031.flac": {
+      "label": 1,
+      "orig_filename": "sp_0007_part_001.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_032.flac": {
+      "label": 1,
+      "orig_filename": "sp_0006_part_015.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_033.flac": {
+      "label": 1,
+      "orig_filename": "hu_0004_part_010.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_034.flac": {
+      "label": 1,
+      "orig_filename": "el_0013_c_part_014.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_035.flac": {
+      "label": 1,
+      "orig_filename": "sp_0005_c_part_026.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_036.flac": {
+      "label": 1,
+      "orig_filename": "lv_0001_part_003.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_037.flac": {
+      "label": 1,
+      "orig_filename": "el_0008_c_part_006.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_038.flac": {
+      "label": 1,
+      "orig_filename": "po_0026_c_part_008.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_039.flac": {
+      "label": 1,
+      "orig_filename": "hu_0002_part_009.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_040.flac": {
+      "label": 1,
+      "orig_filename": "sp_0003_part_010.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_041.flac": {
+      "label": 1,
+      "orig_filename": "sp_0003_part_004.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_042.flac": {
+      "label": 1,
+      "orig_filename": "el_0010_c_part_016.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_043.flac": {
+      "label": 1,
+      "orig_filename": "sp_0004_part_005.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_044.flac": {
+      "label": 1,
+      "orig_filename": "hu_0001_part_003.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_045.flac": {
+      "label": 1,
+      "orig_filename": "sp_0007_part_003.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_046.flac": {
+      "label": 1,
+      "orig_filename": "hg_0010_part_003.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_047.flac": {
+      "label": 1,
+      "orig_filename": "sp_0003_part_001.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_048.flac": {
+      "label": 1,
+      "orig_filename": "hg_0013_part_002.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_049.flac": {
+      "label": 1,
+      "orig_filename": "po_0004_part_004.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_050.flac": {
+      "label": 1,
+      "orig_filename": "el_0015_c_part_025.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_051.flac": {
+      "label": 1,
+      "orig_filename": "hu_0001_part_009.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_052.flac": {
+      "label": 1,
+      "orig_filename": "sp_0006_c_part_024.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_053.flac": {
+      "label": 1,
+      "orig_filename": "hu_0006_part_001.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_054.flac": {
+      "label": 1,
+      "orig_filename": "sp_0001_part_007.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_055.flac": {
+      "label": 1,
+      "orig_filename": "sp_0007_part_001.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_056.flac": {
+      "label": 1,
+      "orig_filename": "lv_0002_c_part_011.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_057.flac": {
+      "label": 1,
+      "orig_filename": "sp_0008_part_006.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_058.flac": {
+      "label": 1,
+      "orig_filename": "hg_0007_part_003.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_059.flac": {
+      "label": 1,
+      "orig_filename": "lv_0005_c_part_017.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_060.flac": {
+      "label": 1,
+      "orig_filename": "el_0011_c_part_012.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_061.flac": {
+      "label": 1,
+      "orig_filename": "po_0030_part_001.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_062.flac": {
+      "label": 1,
+      "orig_filename": "sp_0003_c_part_016.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_063.flac": {
+      "label": 1,
+      "orig_filename": "hu_0001_part_004.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_064.flac": {
+      "label": 1,
+      "orig_filename": "sp_0001_part_002.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_065.flac": {
+      "label": 1,
+      "orig_filename": "lv_0002_part_002.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_066.flac": {
+      "label": 1,
+      "orig_filename": "sp_0008_part_005.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_067.flac": {
+      "label": 1,
+      "orig_filename": "po_0008_c_part_013.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_068.flac": {
+      "label": 1,
+      "orig_filename": "el_0004_c_part_003.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_069.flac": {
+      "label": 1,
+      "orig_filename": "po_0034_c_part_017.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_070.flac": {
+      "label": 1,
+      "orig_filename": "lv_0003_c_part_015.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_071.flac": {
+      "label": 1,
+      "orig_filename": "el_0010_c_part_007.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_072.flac": {
+      "label": 1,
+      "orig_filename": "el_0003_c_part_004.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_073.flac": {
+      "label": 1,
+      "orig_filename": "el_0013_c_part_007.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_074.flac": {
+      "label": 1,
+      "orig_filename": "hu_0001_part_011.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_075.flac": {
+      "label": 1,
+      "orig_filename": "el_0028_part_001.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_076.flac": {
+      "label": 1,
+      "orig_filename": "lv_0006_part_006.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_077.flac": {
+      "label": 1,
+      "orig_filename": "el_0015_c_part_009.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_078.flac": {
+      "label": 1,
+      "orig_filename": "po_0034_c_part_012.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_079.flac": {
+      "label": 1,
+      "orig_filename": "lv_0005_part_013.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_080.flac": {
+      "label": 1,
+      "orig_filename": "sp_0003_part_010.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_081.flac": {
+      "label": 1,
+      "orig_filename": "hu_0007_c_part_008.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_082.flac": {
+      "label": 1,
+      "orig_filename": "sp_0001_part_003.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_083.flac": {
+      "label": 1,
+      "orig_filename": "el_0012_part_001.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_084.flac": {
+      "label": 1,
+      "orig_filename": "lv_0001_part_004.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_085.flac": {
+      "label": 1,
+      "orig_filename": "po_0008_part_002.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_086.flac": {
+      "label": 1,
+      "orig_filename": "lv_0004_part_005.flac",
+      "subgroup": "Luvvoice"
+    },
+    "fake/fake_087.flac": {
+      "label": 1,
+      "orig_filename": "hg_0002_c_part_006.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_088.flac": {
+      "label": 1,
+      "orig_filename": "po_0007_part_008.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_089.flac": {
+      "label": 1,
+      "orig_filename": "el_0013_c_part_012.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_090.flac": {
+      "label": 1,
+      "orig_filename": "hg_0006_c_part_005.flac",
+      "subgroup": "Hexgrad Kokoro"
+    },
+    "fake/fake_091.flac": {
+      "label": 1,
+      "orig_filename": "sp_0001_part_008.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_092.flac": {
+      "label": 1,
+      "orig_filename": "hu_0004_part_006.flac",
+      "subgroup": "Hume AI"
+    },
+    "fake/fake_093.flac": {
+      "label": 1,
+      "orig_filename": "el_0013_part_002.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_094.flac": {
+      "label": 1,
+      "orig_filename": "el_0015_c_part_010.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_095.flac": {
+      "label": 1,
+      "orig_filename": "sp_0005_c_part_028.flac",
+      "subgroup": "Speechify"
+    },
+    "fake/fake_096.flac": {
+      "label": 1,
+      "orig_filename": "el_0015_c_part_024.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_097.flac": {
+      "label": 1,
+      "orig_filename": "po_0033_c_part_011.flac",
+      "subgroup": "Amazon Polly"
+    },
+    "fake/fake_098.flac": {
+      "label": 1,
+      "orig_filename": "el_0015_c_part_020.flac",
+      "subgroup": "ElevenLabs"
+    },
+    "fake/fake_099.flac": {
+      "label": 1,
+      "orig_filename": "lv_0004_part_002.flac",
+      "subgroup": "Luvvoice"
+    },
+    "real/real_000.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_139.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_001.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_036.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_002.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_263.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_003.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_p2_part_277.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_004.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_013.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_005.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_069.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_006.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_083.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_007.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_076.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_008.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_231.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_009.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_part_013.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_010.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_053.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_011.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_110.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_012.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_part_026.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_013.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_p2_part_051.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_014.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_002.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_015.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_154.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_016.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_005.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_017.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_006.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_018.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_091.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_019.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_071.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_020.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_199.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_021.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_100.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_022.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_231.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_023.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_100.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_024.flac": {
+      "label": 0,
+      "orig_filename": "yt_0005_part_014.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_025.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_124.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_026.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_p2_part_013.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_027.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_018.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_028.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_141.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_029.flac": {
+      "label": 0,
+      "orig_filename": "yt_0004_part_043.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_030.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_043.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_031.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_152.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_032.flac": {
+      "label": 0,
+      "orig_filename": "yt_0013_part_032.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_033.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_220.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_034.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_015.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_035.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_025.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_036.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_108.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_037.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_p2_part_173.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_038.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_087.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_039.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_020.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_040.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_179.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_041.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_082.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_042.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_p2_part_265.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_043.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_084.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_044.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_121.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_045.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_111.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_046.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_148.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_047.flac": {
+      "label": 0,
+      "orig_filename": "yt_0005_part_002.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_048.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_229.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_049.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_022.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_050.flac": {
+      "label": 0,
+      "orig_filename": "yt_0003_part_019.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_051.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_160.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_052.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_187.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_053.flac": {
+      "label": 0,
+      "orig_filename": "yt_0013_part_001.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_054.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_239.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_055.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_047.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_056.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_p2_part_011.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_057.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_140.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_058.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_053.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_059.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_023.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_060.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_022.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_061.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_126.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_062.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_163.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_063.flac": {
+      "label": 0,
+      "orig_filename": "yt_0013_part_006.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_064.flac": {
+      "label": 0,
+      "orig_filename": "yt_0013_part_016.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_065.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_230.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_066.flac": {
+      "label": 0,
+      "orig_filename": "yt_0004_part_044.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_067.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_037.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_068.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_012.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_069.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_151.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_070.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_149.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_071.flac": {
+      "label": 0,
+      "orig_filename": "yt_0013_part_014.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_072.flac": {
+      "label": 0,
+      "orig_filename": "yt_0012_part_029.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_073.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_270.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_074.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_147.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_075.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_part_004.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_076.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_225.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_077.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_073.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_078.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_209.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_079.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_052.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_080.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_031.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_081.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_257.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_082.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_001.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_083.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_016.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_084.flac": {
+      "label": 0,
+      "orig_filename": "yt_0006_p2_part_007.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_085.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_222.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_086.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_050.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_087.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_004.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_088.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_046.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_089.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_217.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_090.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_227.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_091.flac": {
+      "label": 0,
+      "orig_filename": "yt_0003_part_017.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_092.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_part_238.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_093.flac": {
+      "label": 0,
+      "orig_filename": "yt_0008_p2_part_259.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_094.flac": {
+      "label": 0,
+      "orig_filename": "yt_0010_part_021.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_095.flac": {
+      "label": 0,
+      "orig_filename": "yt_0009_part_134.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_096.flac": {
+      "label": 0,
+      "orig_filename": "yt_0011_part_140.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_097.flac": {
+      "label": 0,
+      "orig_filename": "yt_0013_part_029.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_098.flac": {
+      "label": 0,
+      "orig_filename": "yt_0000_part_127.flac",
+      "subgroup": "YouTube (real)"
+    },
+    "real/real_099.flac": {
+      "label": 0,
+      "orig_filename": "yt_0004_part_037.flac",
+      "subgroup": "YouTube (real)"
+    }
+  },
+  "in_the_wild": {
+    "fake/fake_000.wav": {
+      "label": 1,
+      "orig_filename": "12749.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_001.wav": {
+      "label": 1,
+      "orig_filename": "13683.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "fake/fake_002.wav": {
+      "label": 1,
+      "orig_filename": "9285.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "fake/fake_003.wav": {
+      "label": 1,
+      "orig_filename": "31661.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_004.wav": {
+      "label": 1,
+      "orig_filename": "13782.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_005.wav": {
+      "label": 1,
+      "orig_filename": "23910.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_006.wav": {
+      "label": 1,
+      "orig_filename": "512.wav",
+      "speaker": "Louis C.K.",
+      "subgroup": "Louis C.K."
+    },
+    "fake/fake_007.wav": {
+      "label": 1,
+      "orig_filename": "9173.wav",
+      "speaker": "The Notorious B.I.G.",
+      "subgroup": "The Notorious B.I.G."
+    },
+    "fake/fake_008.wav": {
+      "label": 1,
+      "orig_filename": "23167.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_009.wav": {
+      "label": 1,
+      "orig_filename": "8663.wav",
+      "speaker": "JFK",
+      "subgroup": "JFK"
+    },
+    "fake/fake_010.wav": {
+      "label": 1,
+      "orig_filename": "30069.wav",
+      "speaker": "Louis C.K.",
+      "subgroup": "Louis C.K."
+    },
+    "fake/fake_011.wav": {
+      "label": 1,
+      "orig_filename": "14981.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "fake/fake_012.wav": {
+      "label": 1,
+      "orig_filename": "2297.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_013.wav": {
+      "label": 1,
+      "orig_filename": "17240.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_014.wav": {
+      "label": 1,
+      "orig_filename": "495.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_015.wav": {
+      "label": 1,
+      "orig_filename": "6078.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "fake/fake_016.wav": {
+      "label": 1,
+      "orig_filename": "5942.wav",
+      "speaker": "Winston Churchill",
+      "subgroup": "Winston Churchill"
+    },
+    "fake/fake_017.wav": {
+      "label": 1,
+      "orig_filename": "25669.wav",
+      "speaker": "2Pac",
+      "subgroup": "2Pac"
+    },
+    "fake/fake_018.wav": {
+      "label": 1,
+      "orig_filename": "24872.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_019.wav": {
+      "label": 1,
+      "orig_filename": "21742.wav",
+      "speaker": "Milton Friedman",
+      "subgroup": "Milton Friedman"
+    },
+    "fake/fake_020.wav": {
+      "label": 1,
+      "orig_filename": "15786.wav",
+      "speaker": "The Notorious B.I.G.",
+      "subgroup": "The Notorious B.I.G."
+    },
+    "fake/fake_021.wav": {
+      "label": 1,
+      "orig_filename": "16259.wav",
+      "speaker": "Nelson Mandela",
+      "subgroup": "Nelson Mandela"
+    },
+    "fake/fake_022.wav": {
+      "label": 1,
+      "orig_filename": "17031.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_023.wav": {
+      "label": 1,
+      "orig_filename": "23343.wav",
+      "speaker": "Orson Welles",
+      "subgroup": "Orson Welles"
+    },
+    "fake/fake_024.wav": {
+      "label": 1,
+      "orig_filename": "20045.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "fake/fake_025.wav": {
+      "label": 1,
+      "orig_filename": "12463.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_026.wav": {
+      "label": 1,
+      "orig_filename": "20200.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_027.wav": {
+      "label": 1,
+      "orig_filename": "10340.wav",
+      "speaker": "The Notorious B.I.G.",
+      "subgroup": "The Notorious B.I.G."
+    },
+    "fake/fake_028.wav": {
+      "label": 1,
+      "orig_filename": "23104.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_029.wav": {
+      "label": 1,
+      "orig_filename": "28280.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "fake/fake_030.wav": {
+      "label": 1,
+      "orig_filename": "28096.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_031.wav": {
+      "label": 1,
+      "orig_filename": "12989.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_032.wav": {
+      "label": 1,
+      "orig_filename": "9363.wav",
+      "speaker": "Kamala Harris",
+      "subgroup": "Kamala Harris"
+    },
+    "fake/fake_033.wav": {
+      "label": 1,
+      "orig_filename": "26218.wav",
+      "speaker": "Winston Churchill",
+      "subgroup": "Winston Churchill"
+    },
+    "fake/fake_034.wav": {
+      "label": 1,
+      "orig_filename": "26026.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_035.wav": {
+      "label": 1,
+      "orig_filename": "10587.wav",
+      "speaker": "Jimmy Carter",
+      "subgroup": "Jimmy Carter"
+    },
+    "fake/fake_036.wav": {
+      "label": 1,
+      "orig_filename": "30464.wav",
+      "speaker": "Louis Farrakhan",
+      "subgroup": "Louis Farrakhan"
+    },
+    "fake/fake_037.wav": {
+      "label": 1,
+      "orig_filename": "5783.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_038.wav": {
+      "label": 1,
+      "orig_filename": "12145.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_039.wav": {
+      "label": 1,
+      "orig_filename": "14482.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_040.wav": {
+      "label": 1,
+      "orig_filename": "445.wav",
+      "speaker": "Mark Zuckerberg",
+      "subgroup": "Mark Zuckerberg"
+    },
+    "fake/fake_041.wav": {
+      "label": 1,
+      "orig_filename": "14795.wav",
+      "speaker": "Alan Watts",
+      "subgroup": "Alan Watts"
+    },
+    "fake/fake_042.wav": {
+      "label": 1,
+      "orig_filename": "30337.wav",
+      "speaker": "Mark Zuckerberg",
+      "subgroup": "Mark Zuckerberg"
+    },
+    "fake/fake_043.wav": {
+      "label": 1,
+      "orig_filename": "11790.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_044.wav": {
+      "label": 1,
+      "orig_filename": "399.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_045.wav": {
+      "label": 1,
+      "orig_filename": "12027.wav",
+      "speaker": "Alan Watts",
+      "subgroup": "Alan Watts"
+    },
+    "fake/fake_046.wav": {
+      "label": 1,
+      "orig_filename": "22438.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_047.wav": {
+      "label": 1,
+      "orig_filename": "26989.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_048.wav": {
+      "label": 1,
+      "orig_filename": "26793.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "fake/fake_049.wav": {
+      "label": 1,
+      "orig_filename": "9679.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_050.wav": {
+      "label": 1,
+      "orig_filename": "18946.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_051.wav": {
+      "label": 1,
+      "orig_filename": "11096.wav",
+      "speaker": "Alan Watts",
+      "subgroup": "Alan Watts"
+    },
+    "fake/fake_052.wav": {
+      "label": 1,
+      "orig_filename": "651.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_053.wav": {
+      "label": 1,
+      "orig_filename": "9389.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_054.wav": {
+      "label": 1,
+      "orig_filename": "18573.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_055.wav": {
+      "label": 1,
+      "orig_filename": "29560.wav",
+      "speaker": "Adam Driver",
+      "subgroup": "Adam Driver"
+    },
+    "fake/fake_056.wav": {
+      "label": 1,
+      "orig_filename": "3713.wav",
+      "speaker": "Milton Friedman",
+      "subgroup": "Milton Friedman"
+    },
+    "fake/fake_057.wav": {
+      "label": 1,
+      "orig_filename": "13927.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_058.wav": {
+      "label": 1,
+      "orig_filename": "3858.wav",
+      "speaker": "The Notorious B.I.G.",
+      "subgroup": "The Notorious B.I.G."
+    },
+    "fake/fake_059.wav": {
+      "label": 1,
+      "orig_filename": "6250.wav",
+      "speaker": "Mr. Rogers",
+      "subgroup": "Mr. Rogers"
+    },
+    "fake/fake_060.wav": {
+      "label": 1,
+      "orig_filename": "9315.wav",
+      "speaker": "Mark Zuckerberg",
+      "subgroup": "Mark Zuckerberg"
+    },
+    "fake/fake_061.wav": {
+      "label": 1,
+      "orig_filename": "5463.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_062.wav": {
+      "label": 1,
+      "orig_filename": "28844.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "fake/fake_063.wav": {
+      "label": 1,
+      "orig_filename": "25773.wav",
+      "speaker": "Nelson Mandela",
+      "subgroup": "Nelson Mandela"
+    },
+    "fake/fake_064.wav": {
+      "label": 1,
+      "orig_filename": "16489.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_065.wav": {
+      "label": 1,
+      "orig_filename": "5686.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "fake/fake_066.wav": {
+      "label": 1,
+      "orig_filename": "15454.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_067.wav": {
+      "label": 1,
+      "orig_filename": "13543.wav",
+      "speaker": "Louis Farrakhan",
+      "subgroup": "Louis Farrakhan"
+    },
+    "fake/fake_068.wav": {
+      "label": 1,
+      "orig_filename": "1753.wav",
+      "speaker": "Boris Johnson",
+      "subgroup": "Boris Johnson"
+    },
+    "fake/fake_069.wav": {
+      "label": 1,
+      "orig_filename": "30704.wav",
+      "speaker": "Dwight Eisenhower",
+      "subgroup": "Dwight Eisenhower"
+    },
+    "fake/fake_070.wav": {
+      "label": 1,
+      "orig_filename": "26198.wav",
+      "speaker": "Norm MacDonald",
+      "subgroup": "Norm MacDonald"
+    },
+    "fake/fake_071.wav": {
+      "label": 1,
+      "orig_filename": "19487.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "fake/fake_072.wav": {
+      "label": 1,
+      "orig_filename": "6033.wav",
+      "speaker": "Tucker Carlson",
+      "subgroup": "Tucker Carlson"
+    },
+    "fake/fake_073.wav": {
+      "label": 1,
+      "orig_filename": "464.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_074.wav": {
+      "label": 1,
+      "orig_filename": "15144.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_075.wav": {
+      "label": 1,
+      "orig_filename": "27975.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_076.wav": {
+      "label": 1,
+      "orig_filename": "4710.wav",
+      "speaker": "Queen Elizabeth II",
+      "subgroup": "Queen Elizabeth II"
+    },
+    "fake/fake_077.wav": {
+      "label": 1,
+      "orig_filename": "28797.wav",
+      "speaker": "William F. Buckley",
+      "subgroup": "William F. Buckley"
+    },
+    "fake/fake_078.wav": {
+      "label": 1,
+      "orig_filename": "21170.wav",
+      "speaker": "Winston Churchill",
+      "subgroup": "Winston Churchill"
+    },
+    "fake/fake_079.wav": {
+      "label": 1,
+      "orig_filename": "15487.wav",
+      "speaker": "Bob Ross",
+      "subgroup": "Bob Ross"
+    },
+    "fake/fake_080.wav": {
+      "label": 1,
+      "orig_filename": "18069.wav",
+      "speaker": "Calvin Coolidge",
+      "subgroup": "Calvin Coolidge"
+    },
+    "fake/fake_081.wav": {
+      "label": 1,
+      "orig_filename": "1886.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_082.wav": {
+      "label": 1,
+      "orig_filename": "7464.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "fake/fake_083.wav": {
+      "label": 1,
+      "orig_filename": "20249.wav",
+      "speaker": "Mark Zuckerberg",
+      "subgroup": "Mark Zuckerberg"
+    },
+    "fake/fake_084.wav": {
+      "label": 1,
+      "orig_filename": "15726.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_085.wav": {
+      "label": 1,
+      "orig_filename": "30339.wav",
+      "speaker": "Richard Nixon",
+      "subgroup": "Richard Nixon"
+    },
+    "fake/fake_086.wav": {
+      "label": 1,
+      "orig_filename": "24765.wav",
+      "speaker": "Mark Zuckerberg",
+      "subgroup": "Mark Zuckerberg"
+    },
+    "fake/fake_087.wav": {
+      "label": 1,
+      "orig_filename": "26436.wav",
+      "speaker": "Orson Welles",
+      "subgroup": "Orson Welles"
+    },
+    "fake/fake_088.wav": {
+      "label": 1,
+      "orig_filename": "3833.wav",
+      "speaker": "Alexandria Ocasio-Cortez",
+      "subgroup": "Alexandria Ocasio-Cortez"
+    },
+    "fake/fake_089.wav": {
+      "label": 1,
+      "orig_filename": "29888.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "fake/fake_090.wav": {
+      "label": 1,
+      "orig_filename": "1882.wav",
+      "speaker": "Kanye West",
+      "subgroup": "Kanye West"
+    },
+    "fake/fake_091.wav": {
+      "label": 1,
+      "orig_filename": "21536.wav",
+      "speaker": "The Notorious B.I.G.",
+      "subgroup": "The Notorious B.I.G."
+    },
+    "fake/fake_092.wav": {
+      "label": 1,
+      "orig_filename": "23419.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "fake/fake_093.wav": {
+      "label": 1,
+      "orig_filename": "13572.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "fake/fake_094.wav": {
+      "label": 1,
+      "orig_filename": "29231.wav",
+      "speaker": "Alan Watts",
+      "subgroup": "Alan Watts"
+    },
+    "fake/fake_095.wav": {
+      "label": 1,
+      "orig_filename": "8989.wav",
+      "speaker": "Dwight Eisenhower",
+      "subgroup": "Dwight Eisenhower"
+    },
+    "fake/fake_096.wav": {
+      "label": 1,
+      "orig_filename": "7341.wav",
+      "speaker": "Orson Welles",
+      "subgroup": "Orson Welles"
+    },
+    "fake/fake_097.wav": {
+      "label": 1,
+      "orig_filename": "9705.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "fake/fake_098.wav": {
+      "label": 1,
+      "orig_filename": "4286.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "fake/fake_099.wav": {
+      "label": 1,
+      "orig_filename": "31032.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "real/real_000.wav": {
+      "label": 0,
+      "orig_filename": "26006.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_001.wav": {
+      "label": 0,
+      "orig_filename": "28234.wav",
+      "speaker": "Richard Nixon",
+      "subgroup": "Richard Nixon"
+    },
+    "real/real_002.wav": {
+      "label": 0,
+      "orig_filename": "6707.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_003.wav": {
+      "label": 0,
+      "orig_filename": "10962.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_004.wav": {
+      "label": 0,
+      "orig_filename": "30572.wav",
+      "speaker": "Nick Offerman",
+      "subgroup": "Nick Offerman"
+    },
+    "real/real_005.wav": {
+      "label": 0,
+      "orig_filename": "4769.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "real/real_006.wav": {
+      "label": 0,
+      "orig_filename": "21912.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "real/real_007.wav": {
+      "label": 0,
+      "orig_filename": "10334.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_008.wav": {
+      "label": 0,
+      "orig_filename": "12479.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_009.wav": {
+      "label": 0,
+      "orig_filename": "20905.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_010.wav": {
+      "label": 0,
+      "orig_filename": "10311.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_011.wav": {
+      "label": 0,
+      "orig_filename": "9455.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_012.wav": {
+      "label": 0,
+      "orig_filename": "24146.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_013.wav": {
+      "label": 0,
+      "orig_filename": "1542.wav",
+      "speaker": "Louis Farrakhan",
+      "subgroup": "Louis Farrakhan"
+    },
+    "real/real_014.wav": {
+      "label": 0,
+      "orig_filename": "26162.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "real/real_015.wav": {
+      "label": 0,
+      "orig_filename": "12029.wav",
+      "speaker": "Calvin Coolidge",
+      "subgroup": "Calvin Coolidge"
+    },
+    "real/real_016.wav": {
+      "label": 0,
+      "orig_filename": "31368.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_017.wav": {
+      "label": 0,
+      "orig_filename": "6314.wav",
+      "speaker": "Richard Nixon",
+      "subgroup": "Richard Nixon"
+    },
+    "real/real_018.wav": {
+      "label": 0,
+      "orig_filename": "7243.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "real/real_019.wav": {
+      "label": 0,
+      "orig_filename": "30999.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_020.wav": {
+      "label": 0,
+      "orig_filename": "17450.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_021.wav": {
+      "label": 0,
+      "orig_filename": "7272.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_022.wav": {
+      "label": 0,
+      "orig_filename": "26546.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "real/real_023.wav": {
+      "label": 0,
+      "orig_filename": "12623.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_024.wav": {
+      "label": 0,
+      "orig_filename": "4359.wav",
+      "speaker": "Mark Zuckerberg",
+      "subgroup": "Mark Zuckerberg"
+    },
+    "real/real_025.wav": {
+      "label": 0,
+      "orig_filename": "6149.wav",
+      "speaker": "Milton Friedman",
+      "subgroup": "Milton Friedman"
+    },
+    "real/real_026.wav": {
+      "label": 0,
+      "orig_filename": "4820.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_027.wav": {
+      "label": 0,
+      "orig_filename": "7232.wav",
+      "speaker": "Louis Farrakhan",
+      "subgroup": "Louis Farrakhan"
+    },
+    "real/real_028.wav": {
+      "label": 0,
+      "orig_filename": "24361.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_029.wav": {
+      "label": 0,
+      "orig_filename": "11217.wav",
+      "speaker": "Martin Luther King",
+      "subgroup": "Martin Luther King"
+    },
+    "real/real_030.wav": {
+      "label": 0,
+      "orig_filename": "7651.wav",
+      "speaker": "Milton Friedman",
+      "subgroup": "Milton Friedman"
+    },
+    "real/real_031.wav": {
+      "label": 0,
+      "orig_filename": "9896.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_032.wav": {
+      "label": 0,
+      "orig_filename": "19471.wav",
+      "speaker": "Arnold Schwarzenegger",
+      "subgroup": "Arnold Schwarzenegger"
+    },
+    "real/real_033.wav": {
+      "label": 0,
+      "orig_filename": "18709.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_034.wav": {
+      "label": 0,
+      "orig_filename": "26158.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_035.wav": {
+      "label": 0,
+      "orig_filename": "14455.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_036.wav": {
+      "label": 0,
+      "orig_filename": "22.wav",
+      "speaker": "2Pac",
+      "subgroup": "2Pac"
+    },
+    "real/real_037.wav": {
+      "label": 0,
+      "orig_filename": "13660.wav",
+      "speaker": "Queen Elizabeth II",
+      "subgroup": "Queen Elizabeth II"
+    },
+    "real/real_038.wav": {
+      "label": 0,
+      "orig_filename": "3266.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_039.wav": {
+      "label": 0,
+      "orig_filename": "13473.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_040.wav": {
+      "label": 0,
+      "orig_filename": "18033.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "real/real_041.wav": {
+      "label": 0,
+      "orig_filename": "7753.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_042.wav": {
+      "label": 0,
+      "orig_filename": "18870.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_043.wav": {
+      "label": 0,
+      "orig_filename": "26654.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "real/real_044.wav": {
+      "label": 0,
+      "orig_filename": "3943.wav",
+      "speaker": "Alexandria Ocasio-Cortez",
+      "subgroup": "Alexandria Ocasio-Cortez"
+    },
+    "real/real_045.wav": {
+      "label": 0,
+      "orig_filename": "28484.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_046.wav": {
+      "label": 0,
+      "orig_filename": "27266.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_047.wav": {
+      "label": 0,
+      "orig_filename": "7976.wav",
+      "speaker": "Harry Truman",
+      "subgroup": "Harry Truman"
+    },
+    "real/real_048.wav": {
+      "label": 0,
+      "orig_filename": "24259.wav",
+      "speaker": "Calvin Coolidge",
+      "subgroup": "Calvin Coolidge"
+    },
+    "real/real_049.wav": {
+      "label": 0,
+      "orig_filename": "16816.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_050.wav": {
+      "label": 0,
+      "orig_filename": "3170.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_051.wav": {
+      "label": 0,
+      "orig_filename": "6476.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_052.wav": {
+      "label": 0,
+      "orig_filename": "28483.wav",
+      "speaker": "Winston Churchill",
+      "subgroup": "Winston Churchill"
+    },
+    "real/real_053.wav": {
+      "label": 0,
+      "orig_filename": "24017.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_054.wav": {
+      "label": 0,
+      "orig_filename": "6150.wav",
+      "speaker": "John Cleese",
+      "subgroup": "John Cleese"
+    },
+    "real/real_055.wav": {
+      "label": 0,
+      "orig_filename": "24925.wav",
+      "speaker": "Nick Offerman",
+      "subgroup": "Nick Offerman"
+    },
+    "real/real_056.wav": {
+      "label": 0,
+      "orig_filename": "4392.wav",
+      "speaker": "Christopher Hitchens",
+      "subgroup": "Christopher Hitchens"
+    },
+    "real/real_057.wav": {
+      "label": 0,
+      "orig_filename": "6899.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_058.wav": {
+      "label": 0,
+      "orig_filename": "16058.wav",
+      "speaker": "George Carlin",
+      "subgroup": "George Carlin"
+    },
+    "real/real_059.wav": {
+      "label": 0,
+      "orig_filename": "5148.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_060.wav": {
+      "label": 0,
+      "orig_filename": "7370.wav",
+      "speaker": "Louis Farrakhan",
+      "subgroup": "Louis Farrakhan"
+    },
+    "real/real_061.wav": {
+      "label": 0,
+      "orig_filename": "20881.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_062.wav": {
+      "label": 0,
+      "orig_filename": "25279.wav",
+      "speaker": "George Carlin",
+      "subgroup": "George Carlin"
+    },
+    "real/real_063.wav": {
+      "label": 0,
+      "orig_filename": "1884.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "real/real_064.wav": {
+      "label": 0,
+      "orig_filename": "15159.wav",
+      "speaker": "JFK",
+      "subgroup": "JFK"
+    },
+    "real/real_065.wav": {
+      "label": 0,
+      "orig_filename": "16885.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_066.wav": {
+      "label": 0,
+      "orig_filename": "13007.wav",
+      "speaker": "Winston Churchill",
+      "subgroup": "Winston Churchill"
+    },
+    "real/real_067.wav": {
+      "label": 0,
+      "orig_filename": "20354.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_068.wav": {
+      "label": 0,
+      "orig_filename": "16257.wav",
+      "speaker": "Nick Offerman",
+      "subgroup": "Nick Offerman"
+    },
+    "real/real_069.wav": {
+      "label": 0,
+      "orig_filename": "23676.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_070.wav": {
+      "label": 0,
+      "orig_filename": "22183.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_071.wav": {
+      "label": 0,
+      "orig_filename": "23519.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_072.wav": {
+      "label": 0,
+      "orig_filename": "26732.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_073.wav": {
+      "label": 0,
+      "orig_filename": "6531.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_074.wav": {
+      "label": 0,
+      "orig_filename": "30850.wav",
+      "speaker": "Ronald Reagan",
+      "subgroup": "Ronald Reagan"
+    },
+    "real/real_075.wav": {
+      "label": 0,
+      "orig_filename": "2450.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_076.wav": {
+      "label": 0,
+      "orig_filename": "15684.wav",
+      "speaker": "Bill Clinton",
+      "subgroup": "Bill Clinton"
+    },
+    "real/real_077.wav": {
+      "label": 0,
+      "orig_filename": "19306.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_078.wav": {
+      "label": 0,
+      "orig_filename": "10854.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_079.wav": {
+      "label": 0,
+      "orig_filename": "28884.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_080.wav": {
+      "label": 0,
+      "orig_filename": "14522.wav",
+      "speaker": "Barack Obama",
+      "subgroup": "Barack Obama"
+    },
+    "real/real_081.wav": {
+      "label": 0,
+      "orig_filename": "6102.wav",
+      "speaker": "George W. Bush",
+      "subgroup": "George W. Bush"
+    },
+    "real/real_082.wav": {
+      "label": 0,
+      "orig_filename": "21650.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_083.wav": {
+      "label": 0,
+      "orig_filename": "5469.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "real/real_084.wav": {
+      "label": 0,
+      "orig_filename": "23856.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_085.wav": {
+      "label": 0,
+      "orig_filename": "22855.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_086.wav": {
+      "label": 0,
+      "orig_filename": "28258.wav",
+      "speaker": "Martin Luther King",
+      "subgroup": "Martin Luther King"
+    },
+    "real/real_087.wav": {
+      "label": 0,
+      "orig_filename": "714.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_088.wav": {
+      "label": 0,
+      "orig_filename": "30552.wav",
+      "speaker": "Winston Churchill",
+      "subgroup": "Winston Churchill"
+    },
+    "real/real_089.wav": {
+      "label": 0,
+      "orig_filename": "906.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_090.wav": {
+      "label": 0,
+      "orig_filename": "2890.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_091.wav": {
+      "label": 0,
+      "orig_filename": "27969.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    },
+    "real/real_092.wav": {
+      "label": 0,
+      "orig_filename": "3595.wav",
+      "speaker": "Jeff Goldblum",
+      "subgroup": "Jeff Goldblum"
+    },
+    "real/real_093.wav": {
+      "label": 0,
+      "orig_filename": "9701.wav",
+      "speaker": "Alec Guinness",
+      "subgroup": "Alec Guinness"
+    },
+    "real/real_094.wav": {
+      "label": 0,
+      "orig_filename": "6035.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_095.wav": {
+      "label": 0,
+      "orig_filename": "24669.wav",
+      "speaker": "Louis Farrakhan",
+      "subgroup": "Louis Farrakhan"
+    },
+    "real/real_096.wav": {
+      "label": 0,
+      "orig_filename": "18653.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_097.wav": {
+      "label": 0,
+      "orig_filename": "7318.wav",
+      "speaker": "Bernie Sanders",
+      "subgroup": "Bernie Sanders"
+    },
+    "real/real_098.wav": {
+      "label": 0,
+      "orig_filename": "24695.wav",
+      "speaker": "Ayn Rand",
+      "subgroup": "Ayn Rand"
+    },
+    "real/real_099.wav": {
+      "label": 0,
+      "orig_filename": "5433.wav",
+      "speaker": "Donald Trump",
+      "subgroup": "Donald Trump"
+    }
+  },
+  "mlaad": {
+    "fake/mlaad_000_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/the_sea_fairies_07_f000167.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_001_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/piratesofersatz_01_leinster_64kb_f000132.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_002_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/wives_and_daughters_29_f000094.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_003_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/wives_and_daughters_36_f000117.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_004_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/emerald_city_of_oz_07_f000059.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_005_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/pink_fairy_book_32_f000109.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_006_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/hunters_space_14_f000022.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_007_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/the_master_key_10_f000085.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_008_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/northandsouth_29_f000002.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_009_ElevenLabs-v3.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/ElevenLabs-v3/piratesofersatz_06_leinster_64kb_f000064.wav",
+      "subgroup": "ElevenLabs-v3"
+    },
+    "fake/mlaad_010_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/poisoned_pen_10_f000166.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_011_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/wives_and_daughters_60_f000330.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_012_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/pink_fairy_book_12_f000220.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_013_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/silent_bullet_12_f000119.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_014_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/silent_bullet_12_f000202.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_015_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/hunters_space_15_f000019.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_016_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/rinkitink_baum_06_64kb_f000056.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_017_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/emerald_city_of_oz_22_f000042.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_018_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/jane_eyre_29_f000083.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_019_OpenAI_TTS-1_HD.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/OpenAI TTS-1 HD/northandsouth_08_f000137.wav",
+      "subgroup": "OpenAI_TTS-1_HD"
+    },
+    "fake/mlaad_020_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/northandsouth_35_f000034.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_021_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/poisoned_pen_01_f000049.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_022_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/midnight_passenger_02_f000200.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_023_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/wives_and_daughters_30_f000063.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_024_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/emerald_city_of_oz_06_f000020.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_025_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/wives_and_daughters_16_f000184.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_026_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/the_master_key_10_f000144.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_027_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/silent_bullet_10_f000128.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_028_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/silent_bullet_08_f000101.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_029_suno_bark.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/suno_bark/wives_and_daughters_44_f000039.wav",
+      "subgroup": "suno_bark"
+    },
+    "fake/mlaad_030_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/wives_and_daughters_18_f000057.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_031_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/rinkitink_baum_04_64kb_f000021.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_032_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/jane_eyre_24_f000121.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_033_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/jane_eyre_13_f000187.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_034_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/jane_eyre_27_f000220.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_035_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/jane_eyre_34_f000238.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_036_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/wives_and_daughters_06_f000206.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_037_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/wives_and_daughters_18_f000114.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_038_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/wives_and_daughters_22_f000148.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_039_tts_models_multilingual_multi-dataset_xtts_v2.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/tts_models_multilingual_multi-dataset_xtts_v2/piratesofersatz_05_leinster_64kb_f000088.wav",
+      "subgroup": "tts_models_multilingual_multi-dataset_xtts_v2"
+    },
+    "fake/mlaad_040_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/silent_bullet_11_f000056.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_041_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/wives_and_daughters_22_f000170.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_042_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/wives_and_daughters_35_f000276.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_043_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/the_sea_fairies_13_f000079.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_044_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/skyisland_14_baum_64kb_f000052.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_045_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/northandsouth_01_f000037.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_046_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/jane_eyre_15_f000141.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_047_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/hunters_space_07_f000015.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_048_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/wives_and_daughters_48_f000041.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_049_kokoro.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/kokoro/wives_and_daughters_17_f000058.wav",
+      "subgroup": "kokoro"
+    },
+    "fake/mlaad_050_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/ozma_of_oz_10_f000096.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_051_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/dorothy_and_wizard_oz_17_f000054.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_052_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/jane_eyre_10_f000178.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_053_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/rinkitink_baum_06_64kb_f000120.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_054_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/the_master_key_20_f000130.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_055_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/skyisland_30_baum_64kb_f000033.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_056_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/jane_eyre_34_f000050.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_057_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/silent_bullet_05_f000148.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_058_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/wives_and_daughters_59_f000168.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_059_f5-tts.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/f5-tts/jane_eyre_14_f000058.wav",
+      "subgroup": "f5-tts"
+    },
+    "fake/mlaad_060_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/jane_eyre_34_f000235.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_061_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/jane_eyre_09_f000138.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_062_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/jane_eyre_01_f000038.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_063_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/skyisland_24_baum_64kb_f000072.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_064_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/silent_bullet_05_f000224.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_065_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/piratesofersatz_02_leinster_64kb_f000002.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_066_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/northandsouth_17_f000038.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_067_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/jane_eyre_27_f000298.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_068_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/silent_bullet_06_f000051.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_069_ChatTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/ChatTTS/piratesofersatz_03_leinster_64kb_f000002.wav",
+      "subgroup": "ChatTTS"
+    },
+    "fake/mlaad_070_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/jane_eyre_27_f000324.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_071_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/wives_and_daughters_43_f000077.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_072_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/wives_and_daughters_53_f000128.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_073_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/emerald_city_of_oz_15_f000062.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_074_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/emerald_city_of_oz_03_f000065.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_075_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/rinkitink_baum_13_64kb_f000032.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_076_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/dorothy_and_wizard_oz_12_f000085.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_077_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/poisoned_pen_04_f000074.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_078_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/northandsouth_28_f000086.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_079_Gemini-3.1-Flash-TTS.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/Gemini-3.1-Flash-TTS/skyisland_09_baum_64kb_f000069.wav",
+      "subgroup": "Gemini-3.1-Flash-TTS"
+    },
+    "fake/mlaad_080_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/jane_eyre_19_f000119.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_081_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/jane_eyre_29_f000106.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_082_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/poisoned_pen_10_f000335.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_083_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/piratesofersatz_10_leinster_64kb_f000175.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_084_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/ozma_of_oz_07_f000077.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_085_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/jane_eyre_32_f000126.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_086_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/wives_and_daughters_13_f000098.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_087_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/dorothy_and_wizard_oz_08_f000064.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_088_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/midnight_passenger_04_f000075.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_089_sesame_csm.wav": {
+      "contamination": "held_out",
+      "label": 1,
+      "orig_filename": "fake/en/sesame_csm/wives_and_daughters_05_f000098.wav",
+      "subgroup": "sesame_csm"
+    },
+    "fake/mlaad_090_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/jane_eyre_12_f000206.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_091_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/jane_eyre_21_f000408.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_092_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/wives_and_daughters_08_f000246.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_093_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/jane_eyre_14_f000020.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_094_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/northandsouth_42_f000007.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_095_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/pink_fairy_book_16_f000019.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_096_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/rinkitink_baum_05_64kb_f000058.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_097_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/the_sea_fairies_15_f000137.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_098_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/the_master_key_12_f000014.wav",
+      "subgroup": "MeloTTS"
+    },
+    "fake/mlaad_099_MeloTTS.wav": {
+      "contamination": "seen_in_training",
+      "label": 1,
+      "orig_filename": "fake/en/MeloTTS/the_master_key_03_f000022.wav",
+      "subgroup": "MeloTTS"
+    },
+    "real/E_0000007662.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5427",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000024370.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4240",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000057807.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0009",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000067756.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0424",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000077522.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4073",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000093696.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2334",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000111870.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1865",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000113090.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1192",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000128744.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0984",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000157655.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0011",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000174762.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4249",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000189610.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0202",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000199195.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3463",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000212830.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2618",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000212916.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3184",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000218057.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3244",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000218100.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2715",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000220167.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3858",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000231993.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2959",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000243846.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1934",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000244527.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5306",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000258329.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4538",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000267596.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3466",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000274402.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4836",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000279501.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1370",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000284052.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3640",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000297406.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0033",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000300235.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0034",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000301101.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0060",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000309815.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1389",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000316097.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2333",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000324440.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3471",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000340345.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4082",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000342363.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4445",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000356812.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1744",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000365251.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1446",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000372569.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5411",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000378215.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2430",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000378894.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3498",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000386872.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3645",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000395445.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3360",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000395669.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1746",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000406588.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3360",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000440960.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0017",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000453314.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0112",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000453757.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4181",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000464506.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3377",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000467238.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1010",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000483820.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0285",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000491411.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4249",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000493914.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3151",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000494199.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4378",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000560695.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3739",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000582627.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3208",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000586286.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0786",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000591251.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3268",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000598235.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3184",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000600578.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3160",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000616814.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4863",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000620787.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0369",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000626300.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0369",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000630850.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0017",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000641022.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3262",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000648179.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5185",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000675876.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4526",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000685013.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1549",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000686650.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2838",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000698076.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3642",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000701530.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2081",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000705585.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1773",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000719769.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3860",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000724139.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0284",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000743772.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2958",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000744570.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4249",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000755039.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0365",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000760945.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3374",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000775283.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0784",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000777245.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4704",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000786412.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1994",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000798037.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0967",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000805397.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3200",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000818148.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5425",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000833269.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4004",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000843070.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1870",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000854001.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1758",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000863881.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5147",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000878321.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1004",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000888608.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_5117",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000892258.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0167",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000907631.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2501",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000911700.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1238",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000919461.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0067",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000932424.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_2321",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000937511.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0876",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000942062.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1220",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000945935.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3601",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000997926.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_1256",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0000999248.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_4004",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0001005631.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_0658",
+      "subgroup": "bonafide (ASVspoof5)"
+    },
+    "real/E_0001008919.flac": {
+      "attack": "bonafide",
+      "contamination": "clean",
+      "label": 0,
+      "speaker": "E_3982",
+      "subgroup": "bonafide (ASVspoof5)"
+    }
+  }
+}

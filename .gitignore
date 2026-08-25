@@ -34,3 +34,6 @@ Thumbs.db
 
 # Embedding caches
 **/w2v2_large_cache/
+
+# Local eval corpora (downloaded, ~200 files per benchmark — rebuild with the prep scripts)
+/test_data/
