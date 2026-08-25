@@ -50,38 +50,40 @@ Score distributions:
 
 ## Per-Speaker Detection Rate (threshold 0.55)
 
-> **Correction notice (2026-06-05):** an earlier version of this report had an index-mapping bug that swapped the per-speaker numbers between the fake and real groups. The overall metrics (accuracy, EER, score distributions) were never affected. The corrected per-speaker numbers below tell the opposite story from the original draft, and the takeaways have been rewritten accordingly. See `results_in_the_wild_enriched.json` for the source of truth.
+> **Correction notice (2026-08-24, supersedes 2026-06-05):** the per-speaker tables in this report have now been wrong twice, both times for the same underlying reason. `deployment_v1_2_4/inference.py` enumerated files with `Path.glob()` (filesystem order), while `run_eval.py` and the enriched-metrics scripts rebuilt the file list with `sorted()` and zipped it onto those arrays — so per-file scores were attributed to the wrong filenames. The 2026-06-05 correction was itself derived from `results_in_the_wild_enriched.json`, which inherits the same defect, and so remained incorrect.
+>
+> **The tables below are recomputed from provenance-recovered per-file attributions in `results_external_v1_2_6.json`**, whose scores were validated per-file against the original v1.2.4 run to within 8.2e-6. Overall metrics — accuracy, EER, precision/recall, score distributions — depend only on the *set* of scores within each class and were never affected; they are unchanged and reproduce exactly. Do not use `results_in_the_wild_enriched.json` or `results_all_engines.json` for per-file or per-speaker analysis.
 
 **Fakes — detection rate by speaker (n ≥ 4):**
 
 | Speaker | Detected | Mean Score |
 |---------|----------|------------|
-| Alec Guinness | 9/17 (53%) | 0.536 |
-| Bernie Sanders | 3/10 (30%) | 0.442 |
-| Ayn Rand | 5/8 (63%) | 0.556 |
-| Bill Clinton | 4/7 (57%) | 0.564 |
-| Ronald Reagan | 2/5 (40%) | 0.480 |
-| Christopher Hitchens | 2/5 (40%) | 0.464 |
-| The Notorious B.I.G. | 3/5 (60%) | 0.574 |
-| Mark Zuckerberg | 3/5 (60%) | 0.594 |
-| Alan Watts | 3/4 (75%) | 0.666 |
+| Alec Guinness | 14/17 (82%) | 0.641 |
+| Bernie Sanders | 3/10 (30%) | 0.483 |
+| Ayn Rand | 1/8 (12%) | 0.394 |
+| Bill Clinton | 0/7 (0%) | 0.340 |
+| Ronald Reagan | 3/5 (60%) | 0.532 |
+| Christopher Hitchens | 3/5 (60%) | 0.584 |
+| The Notorious B.I.G. | 2/5 (40%) | 0.413 |
+| Mark Zuckerberg | 4/5 (80%) | 0.663 |
+| Alan Watts | 2/4 (50%) | 0.579 |
 
 **Reals — false-flag rate by speaker (n ≥ 4):**
 
 | Speaker | Flagged | Mean Score |
 |---------|---------|------------|
-| Barack Obama | 0/19 (0%) | 0.261 |
-| Donald Trump | 3/17 (18%) | 0.311 |
-| Bernie Sanders | 2/8 (25%) | 0.339 |
-| Ayn Rand | 0/7 (0%) | 0.378 |
-| Ronald Reagan | 0/7 (0%) | 0.326 |
-| Bill Clinton | 0/5 (0%) | 0.261 |
-| Alec Guinness | 0/5 (0%) | 0.370 |
-| Louis Farrakhan | 0/4 (0%) | 0.254 |
+| Barack Obama | 1/19 (5%) | 0.279 |
+| Donald Trump | 0/17 (0%) | 0.245 |
+| Bernie Sanders | 0/8 (0%) | 0.286 |
+| Ayn Rand | 2/7 (29%) | 0.412 |
+| Ronald Reagan | 0/7 (0%) | 0.337 |
+| Bill Clinton | 0/5 (0%) | 0.310 |
+| Alec Guinness | 0/5 (0%) | 0.295 |
+| Louis Farrakhan | 1/4 (25%) | 0.373 |
 
-**Politicians' real speech is the cleanest group, not the worst.** Obama (0/19), Reagan (0/7), Ayn Rand (0/7), Bill Clinton (0/5), Louis Farrakhan (0/4) all have zero false flags. Trump (18%) and Sanders (25%) are the only above-zero outliers. The 7 false positives total are scattered, not concentrated.
+**Real political speech is clean.** Donald Trump (0/17), Bernie Sanders (0/8), Ronald Reagan (0/7), Bill Clinton (0/5) and Alec Guinness (0/5) all have zero false flags. The non-zero groups at n >= 4 are Ayn Rand (2/7, 29%), Louis Farrakhan (1/4, 25%) and Barack Obama (1/19, 5%); the remaining three false positives fall in speakers with n < 4 (2Pac 1/1, Calvin Coolidge 1/2, Nick Offerman 1/3). All seven are scattered across the pool rather than concentrated in any one group.
 
-**Detection rate is reasonable for the speakers the dataset was built to catch.** Alec Guinness (deceased 2000) fakes are detected 53%, Alan Watts (deceased 1973) 75%, Mark Zuckerberg 60%, Notorious B.I.G. 60%. These are exactly the high-profile cloning targets, and the model handles them roughly as well as the overall 51% recall suggests.
+**Detection is strongest on the highest-profile cloning targets.** Alec Guinness (deceased 2000) fakes are detected 82% and Mark Zuckerberg 80% — both well above the overall 51% recall. The weak groups are Bill Clinton (0/7) and Ayn Rand (1/8), where the model catches almost nothing, and the spread across speakers (0% to 82%) is far wider than the headline recall suggests.
 
 ## Comparison Across All Evals
 
@@ -98,7 +100,7 @@ Score distributions:
 
 2. **High-precision, low-recall regime.** At threshold 0.55, the model catches only 51% of fakes but flags real audio incorrectly just 7% of the time (precision 87.9%). Useful as a **fake-confirmer** (when it says fake, trust it) but not as a **fake-detector** (it misses half).
 
-3. **No political-speech bias.** All seven false positives are scattered across the speaker pool. Obama, Reagan, Bill Clinton, Ayn Rand, and Louis Farrakhan have zero false flags between them across 42 real samples. The model's FPR is uniformly low across speaker groups — production-threshold conservatism, not bias.
+3. **No political-speech bias.** The seven false positives are scattered rather than concentrated in political speech: the two most-sampled political speakers, Trump (0/17) and Bernie Sanders (0/8), have zero false flags, as do Reagan (0/7) and Bill Clinton (0/5). The highest single-speaker rate at n >= 4 is Ayn Rand (2/7). The model's FPR is low and broadly uniform across speaker groups — production-threshold conservatism, not bias.
 
 4. **The MLAAD failure was specifically modern TTS, not real-world audio.** In-the-Wild's fakes are mostly 2018-2022-era voice clones (Tortoise, ElevenLabs v1, RVC, etc.). The model handles these directionally correctly. The MLAAD result (44.5%, inverted scores) was specifically a failure against 2024-era commercial TTS (ElevenLabs v3, OpenAI TTS-1 HD, Gemini Flash TTS). The retraining priority is modern TTS, not real-world audio coverage.
 
@@ -109,7 +111,8 @@ Score distributions:
 - Test data: `test_data/in_the_wild/{real,fake}/` (200 wav files)
 - Provenance manifest: `test_data/in_the_wild/manifest.json` (original filenames + speakers)
 - Raw inference output: `results_in_the_wild.json`
-- Enriched metrics + per-speaker breakdown: `results_in_the_wild_enriched.json`
+- Enriched metrics + per-speaker breakdown: `results_external_v1_2_6.json` (correctly attributed; see correction notice)
+- ~~`results_in_the_wild_enriched.json`~~ — **per-file attribution is misaligned; class-wise aggregates only**
 - Prep script: `prep_in_the_wild.py`
 
 ## Citation
