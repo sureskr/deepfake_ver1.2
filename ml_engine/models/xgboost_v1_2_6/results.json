@@ -1,0 +1,56 @@
+{
+  "format": "xgboost_v1_2_6",
+  "feature_extractor": "wav2vec2-large-960h frozen",
+  "functionals": [
+    "mean",
+    "std",
+    "min",
+    "max",
+    "p10",
+    "p50",
+    "p90"
+  ],
+  "n_features": 7168,
+  "best_iteration": 1928,
+  "best_val_auc": 0.963118,
+  "val_eer": 0.0955,
+  "test_report": {
+    "n": 4000,
+    "eer_overall": 0.1425,
+    "acc@0.50": 0.87425,
+    "acc@0.55": 0.8735,
+    "eer[asvspoof]": 0.0485,
+    "recall@0.55[asvspoof]": 0.9694444444444444,
+    "eer[mlaad]": 0.1595,
+    "recall@0.55[mlaad]": 0.7701219512195122
+  },
+  "top20_feature_idx": [
+    1229,
+    1924,
+    1248,
+    1042,
+    1707,
+    1868,
+    1909,
+    5976,
+    5602,
+    1644,
+    5766,
+    1014,
+    1943,
+    6855,
+    1052,
+    5831,
+    7063,
+    6134,
+    1381,
+    5563
+  ],
+  "params": {
+    "n_estimators": 2000,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "colsample_bytree": 0.3,
+    "subsample": 0.8
+  }
+}
