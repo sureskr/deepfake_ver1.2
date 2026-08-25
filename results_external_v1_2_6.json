@@ -19372,5 +19372,88 @@
         "eer_identical": true
       }
     }
+  },
+  "per_file_validation_vs_original_v1_2_4": {
+    "what": "Per-file comparison of this harness's v1.2.4 scores against the raw v1.2.4 output that produced eval reports 01-05 (origin/eval/public-dataset-test).",
+    "alignment_note": "The original arrays follow inference.py's Path.glob() enumeration; this harness uses sorted(). Scores are therefore matched within each class in sorted order (a bijection when both runs produced the same score set).",
+    "datasets": {
+      "deepfake-audio": {
+        "n_original": 200,
+        "n_recomputed": 200,
+        "class_counts_match": true,
+        "max_abs_delta_positionwise": 0.6795863909740448,
+        "max_abs_delta_after_class_alignment": 8.147291183480121e-06,
+        "aligned": true,
+        "n_positions_with_different_enumeration_order": 199,
+        "original_metrics": {
+          "accuracy": 0.25,
+          "eer": 0.85,
+          "eer_threshold": 0.315216988325119
+        },
+        "original_file": "origin/eval/public-dataset-test:results.json"
+      },
+      "asvspoof5": {
+        "n_original": 200,
+        "n_recomputed": 200,
+        "class_counts_match": true,
+        "max_abs_delta_positionwise": 0.7679347913513184,
+        "max_abs_delta_after_class_alignment": 8.615903854258811e-07,
+        "aligned": true,
+        "n_positions_with_different_enumeration_order": 200,
+        "original_metrics": {
+          "accuracy": 0.755,
+          "eer": 0.25,
+          "eer_threshold": 0.4996676743030548
+        },
+        "original_file": "origin/eval/public-dataset-test:results_asvspoof5.json"
+      },
+      "mlaad": {
+        "n_original": 200,
+        "n_recomputed": 200,
+        "class_counts_match": true,
+        "max_abs_delta_positionwise": 0.7015378117828369,
+        "max_abs_delta_after_class_alignment": 8.615903854258811e-07,
+        "aligned": true,
+        "n_positions_with_different_enumeration_order": 198,
+        "original_metrics": {
+          "accuracy": 0.445,
+          "eer": 0.62,
+          "eer_threshold": 0.2944030463695526
+        },
+        "original_file": "origin/eval/public-dataset-test:results_mlaad.json"
+      },
+      "in_the_wild": {
+        "n_original": 200,
+        "n_recomputed": 200,
+        "class_counts_match": true,
+        "max_abs_delta_positionwise": 0.5856365909824371,
+        "max_abs_delta_after_class_alignment": 1.234058380150671e-06,
+        "aligned": true,
+        "n_positions_with_different_enumeration_order": 198,
+        "original_metrics": {
+          "accuracy": 0.725,
+          "eer": 0.26,
+          "eer_threshold": 0.3893280029296875
+        },
+        "original_file": "origin/eval/public-dataset-test:results_in_the_wild.json"
+      },
+      "codecfake": {
+        "n_original": 200,
+        "n_recomputed": 200,
+        "class_counts_match": true,
+        "max_abs_delta_positionwise": 0.5941999370536805,
+        "max_abs_delta_after_class_alignment": 1.6584796905250165e-06,
+        "aligned": true,
+        "n_positions_with_different_enumeration_order": 198,
+        "original_metrics": {
+          "accuracy": 0.56,
+          "eer": 0.41,
+          "eer_threshold": 0.27876248955726624
+        },
+        "original_file": "origin/eval/public-dataset-test:results_codecfake.json"
+      }
+    },
+    "all_datasets_aligned": true,
+    "max_abs_delta_overall": 8.147291183480121e-06
   }
 }

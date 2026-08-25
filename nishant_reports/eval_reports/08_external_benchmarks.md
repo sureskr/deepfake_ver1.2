@@ -66,6 +66,47 @@ accuracy reproduces within 0.02 (reports 01/03 quote accuracy at 0.55, reports 0
 | in_the_wild | 72.0% | 72.0% | 72.5% | 0.260 | **0.260** | PASS |
 | codecfake | 54.5% | 54.5% | 56.0% | 0.410 | **0.410** | PASS |
 
+### Per-file agreement with the original v1.2.4 run
+
+`origin/eval/public-dataset-test` also stores the **raw per-file v1.2.4 output** behind reports
+01–05 (`results.json`, `results_asvspoof5.json`, `results_mlaad.json`, `results_in_the_wild.json`,
+`results_codecfake.json`), which upgrades the check above from "the aggregates match" to "the
+scores match".
+
+Those arrays carry no filenames, and they are in the order `inference.py` enumerated files —
+`Path.glob("*.*")`, i.e. filesystem order — whereas this harness enumerates with `sorted()`.
+Compared position by position they disagree by up to 0.77, purely from ordering. Matched within
+each class in sorted order (a bijection when both runs produced the same set of scores):
+
+| Dataset | max abs Δ after class alignment | positions enumerated differently |
+|---|---|---|
+| deepfake-audio | 8.2 × 10⁻⁶ | 199/200 |
+| ASVspoof5 eval | 8.6 × 10⁻⁷ | 200/200 |
+| MLAAD | 8.6 × 10⁻⁷ | 198/200 |
+| In-the-Wild | 1.2 × 10⁻⁶ | 198/200 |
+| CodecFake | 1.7 × 10⁻⁶ | 198/200 |
+
+**All 1,000 v1.2.4 scores reproduce to ≤ 8.2 × 10⁻⁶** (the original files store 4-decimal or
+float32 values, so this is rounding, not drift). The two scoring paths are numerically the same
+path. A consequence worth stating for the paired tests in §3: the v1.2.4 column in this eval *is*
+the original v1.2.4 run, so every model-vs-v1.2.4 comparison here is already a paired comparison
+against the published baseline.
+
+The mapping direction was confirmed independently: four files were re-scored by a standalone
+reimplementation of `deployment_v1_2_4/inference.py` (no harness code), and each agreed with the
+harness's filename→score mapping to < 5 × 10⁻⁷.
+
+> **Do not reuse the eval branch's per-file breakdowns.** `run_eval.py` and the
+> `*_enriched.json` scripts rebuilt the file list with `sorted()` and zipped it against the
+> glob-ordered score arrays, so their **per-file attributions are misaligned** —
+> `results_all_engines.json` disagrees with a correct recomputation on 199 of 200 filenames, and
+> the per-codec / per-speaker tables derived the same way inherit the error. This is the root
+> cause of the eval-04 per-speaker discrepancy noted in §5. Class-wise aggregates (EER, accuracy,
+> per-class score distributions) are **unaffected**, because they depend only on the set of
+> scores within each class — which is why reports 01–05's headline numbers reproduce exactly.
+> Subgroup baselines for v1.2.4 should be taken from `results_external_v1_2_6.json`, where they
+> are recomputed from provenance-recovered labels.
+
 **Decode-path check.** v1.2.4's original eval decoded FLAC with librosa; v1.2.5/v1.2.6/XGBoost
 training used miniaudio. Both paths were run over all three FLAC datasets: **no score differs at
 1e-6 resolution and every EER is identical**, so the decode path is not a confound
@@ -268,9 +309,10 @@ Alec Guinness fakes at 0.07 EER (17 files, the largest fake group) while v1.2.5/
 sit at 0.49/0.57/0.58 on the same files.
 
 > **Correction to eval 04.** Report 04's corrected per-speaker false-positive table does not
-> survive a recomputation from `test_data/in_the_wild/manifest.json`. The aggregate is exactly
-> right (7 false positives at 0.55, accuracy 72.0%) and the speaker composition matches, but the
-> per-speaker attribution does not: the seven v1.2.4 false positives are Ayn Rand ×2, and one
+> survive a recomputation from `test_data/in_the_wild/manifest.json`. The cause is now known and
+> is the ordering artifact documented in §1: the enrichment script paired `sorted()` filenames
+> with glob-ordered scores. The aggregate is exactly right (7 false positives at 0.55, accuracy
+> 72.0%) and the speaker composition matches, but the per-speaker attribution does not: the seven v1.2.4 false positives are Ayn Rand ×2, and one
 > each for Calvin Coolidge, Louis Farrakhan, 2Pac, Barack Obama and Nick Offerman. **Donald
 > Trump is 0/17 and Bernie Sanders 0/8**, not 3/17 and 2/8 as report 04 states. Report 04's
 > "no political-speech bias" conclusion holds — more strongly, in fact.
@@ -357,6 +399,7 @@ That is the single cheapest methodological upgrade available for the next round.
 ## Artifacts
 
 - `eval_external_datasets.py` — the harness (any checkpoints × any `test_data/` subset)
+- `validate_v1_2_4_perfile.py` — per-file check against the original v1.2.4 run on the eval branch
 - `build_subgroup_labels.py` → `paper_data/subgroup_labels.json` — provenance-recovered labels
 - `results_external_v1_2_6.json` — full metric set incl. ROC/DET points, CIs, comparisons,
   harness validation, decode-path check
@@ -370,6 +413,7 @@ Reproduce:
 pip install xgboost            # macOS also needs: brew install libomp
 python build_subgroup_labels.py
 python eval_external_datasets.py --bootstrap 2000
+python validate_v1_2_4_perfile.py --write     # per-file check vs the original v1.2.4 run
 # decode-path check
 python eval_external_datasets.py --datasets deepfake-audio asvspoof5 mlaad --decode librosa \
   --out /tmp/results_librosa.json --csv /tmp/scores_librosa.csv

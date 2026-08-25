@@ -110,6 +110,7 @@ Headline internal numbers (4,000 files, identical for all four models):
 | `build_subgroup_labels.py` → `paper_data/subgroup_labels.json` | Per-file subgroup labels recovered from provenance: generator (deepfake-audio, by SHA256 match to the HF cache), attack ID + codec + speaker (ASVspoof5 official eval protocol), TTS engine + contamination flag + original MLAAD filename, codec (CodecFake manifest), speaker (In-the-Wild manifest). Zero unknown labels; ASVspoof5 labels verified against the protocol with 0 mismatches. |
 | `results_external_v1_2_6.json` | Full metric set per (dataset, model): EER + threshold + 95% bootstrap CI, AUROC + CI, metrics/confusion at 0.55 and at each model's own EER threshold, per-class score distributions with deciles, ROC/DET curve points, per-subgroup breakdowns, paired model comparisons, harness validation, decode-path check. |
 | `paper_data/external_scores.csv` | **Raw per-file scores** — 1,000 rows × 4 model score columns, with dataset, filename, true label, subgroup, contamination flag and original filename. Any metric or plot in the paper can be recomputed from this without re-running inference. |
+| `validate_v1_2_4_perfile.py` | Per-file validation of the harness against the original v1.2.4 run stored on `origin/eval/public-dataset-test` (see §6). |
 | `nishant_reports/eval_reports/08_external_benchmarks.md` | The written report: harness validation, per-dataset four-model comparison against the v1.2.4 baselines, MLAAD contamination split, calibration caveat, significance. |
 
 Datasets (200 files each, 100 real + 100 fake): garystafford deepfake-audio (6 commercial TTS),
@@ -136,6 +137,41 @@ git show origin/eval/public-dataset-test:nishant_reports/eval_reports/05_codecfa
 git show origin/eval/public-dataset-test:deployment_v1_2_4/inference.py   # the original scoring path
 git show origin/eval/public-dataset-test:run_eval.py                      # how 01-05 were produced
 ```
+
+### Prior-version raw data (available, with one caveat)
+
+The same branch stores the **raw v1.2.4 output** for the five 200-file samples still sitting in
+`test_data/`:
+
+| File | Contents |
+|---|---|
+| `results.json` (deepfake-audio), `results_asvspoof5.json`, `results_mlaad.json`, `results_in_the_wild.json`, `results_codecfake.json` | `predictions` (per-file v1.2.4 scores) + `targets` (labels), 200 each, plus the aggregate metrics quoted in reports 01–05 |
+| `results_all_engines.json` | deepfake-audio only: per-file rows with filename, ML score, physics verdict, checks-failed, combined verdict |
+| `results_codecfake_enriched.json`, `results_in_the_wild_enriched.json` | v1.2.4 per-codec / per-speaker breakdowns and per-class score distributions |
+
+**What can be recomputed from them:** any threshold-free or class-wise metric for v1.2.4 — EER,
+AUROC, ROC/DET curves, accuracy/precision/recall/F1 and confusion at any threshold, per-class
+score distributions — and paired tests against the v1.2.4 run itself.
+
+**Caveat, verified not assumed:** the arrays follow `inference.py`'s `Path.glob("*.*")`
+enumeration (filesystem order), while everything in this project since uses `sorted()`. Compared
+position by position they disagree by up to 0.77. Matched within each class in sorted order, this
+harness's v1.2.4 scores reproduce all 1,000 original scores to **≤ 8.2 × 10⁻⁶**
+(`validate_v1_2_4_perfile.py`, recorded in
+`results_external_v1_2_6.json → per_file_validation_vs_original_v1_2_4`). Two consequences:
+
+1. The v1.2.4 column of `paper_data/external_scores.csv` **is** the original v1.2.4 run, correctly
+   attributed to filenames (confirmed against a standalone re-implementation of
+   `inference.py` on individual files). Use it rather than the raw arrays — it has filenames,
+   subgroup labels, and the other three models on the same rows.
+2. **The per-file attributions on the eval branch are misaligned** — `run_eval.py` and the
+   enrichment scripts zipped `sorted()` filenames onto glob-ordered scores.
+   `results_all_engines.json` disagrees with a correct recomputation on 199 of 200 filenames, and
+   the `*_enriched.json` per-codec / per-speaker tables inherit the same error (it is also the
+   root cause of the eval-04 per-speaker correction in report 08 §5). Do **not** reuse those
+   subgroup breakdowns as v1.2.4 baselines; the correctly-attributed versions are in
+   `results_external_v1_2_6.json`. Class-wise aggregates in reports 01–05 are unaffected and
+   reproduce exactly.
 
 Reports 01–05 also cover a deterministic "physics engine" (jitter/shimmer, formant velocity,
 HNR, spectral flux) and an AND-combined engine. Only the **ML engine** rows are comparable to
@@ -203,10 +239,10 @@ external harness (report 08, §Harness validation).
 
 ## 9. Things a careful reader will ask
 
-- *Is the external harness the same scoring path that produced reports 01–05?* Yes — it
-  reproduces all five published v1.2.4 EERs exactly and all five accuracies within 0.02
-  (report 08, §Harness validation). The FLAC decode path (miniaudio vs librosa) was also
-  checked and changes no score at 1e-6 resolution.
+- *Is the external harness the same scoring path that produced reports 01–05?* Yes, at per-file
+  resolution: all 1,000 original v1.2.4 scores reproduce to ≤ 8.2 × 10⁻⁶, and all five published
+  EERs and accuracies reproduce (report 08, §1). The FLAC decode path (miniaudio vs librosa) was
+  also checked and changes no score at 1e-6 resolution.
 - *Are the external MLAAD and ASVspoof5 sets independent?* No. The 100 real files are the same
   100 ASVspoof5 bonafide files in both, so the real-side statistics of those two datasets are
   identical by construction, and the two rows should not be treated as independent evidence.
