@@ -1,0 +1,328 @@
+{
+  "dataset": "In-the-Wild",
+  "n_files": 200,
+  "threshold": 0.55,
+  "eer": 0.26,
+  "eer_threshold": 0.3893280029296875,
+  "score_dist": {
+    "real": {
+      "mean": 0.31663348004221914,
+      "median": 0.27926968038082123,
+      "std": 0.12460497687224209
+    },
+    "fake": {
+      "mean": 0.5341446002945304,
+      "median": 0.5605183243751526,
+      "std": 0.2000026923400954
+    }
+  },
+  "fake_by_speaker": {
+    "Alec Guinness": {
+      "n": 17,
+      "detected": 9,
+      "mean_score": 0.53639776829411
+    },
+    "Ronald Reagan": {
+      "n": 5,
+      "detected": 2,
+      "mean_score": 0.48001775443553923
+    },
+    "Christopher Hitchens": {
+      "n": 5,
+      "detected": 2,
+      "mean_score": 0.46382395550608635
+    },
+    "Bill Clinton": {
+      "n": 7,
+      "detected": 4,
+      "mean_score": 0.5642544840063367
+    },
+    "Louis C.K.": {
+      "n": 2,
+      "detected": 1,
+      "mean_score": 0.6217892467975616
+    },
+    "The Notorious B.I.G.": {
+      "n": 5,
+      "detected": 3,
+      "mean_score": 0.5743407011032104
+    },
+    "Ayn Rand": {
+      "n": 8,
+      "detected": 5,
+      "mean_score": 0.5560177695006132
+    },
+    "JFK": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.32195615768432617
+    },
+    "Bernie Sanders": {
+      "n": 10,
+      "detected": 3,
+      "mean_score": 0.4424431562423706
+    },
+    "Winston Churchill": {
+      "n": 3,
+      "detected": 2,
+      "mean_score": 0.5638617674509684
+    },
+    "2Pac": {
+      "n": 1,
+      "detected": 1,
+      "mean_score": 0.7577010989189148
+    },
+    "Milton Friedman": {
+      "n": 2,
+      "detected": 1,
+      "mean_score": 0.5903101861476898
+    },
+    "Nelson Mandela": {
+      "n": 2,
+      "detected": 1,
+      "mean_score": 0.5528883785009384
+    },
+    "Orson Welles": {
+      "n": 3,
+      "detected": 2,
+      "mean_score": 0.6155034104983012
+    },
+    "Barack Obama": {
+      "n": 2,
+      "detected": 2,
+      "mean_score": 0.6973090767860413
+    },
+    "Kamala Harris": {
+      "n": 1,
+      "detected": 1,
+      "mean_score": 0.6251980662345886
+    },
+    "Jimmy Carter": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.23542983829975128
+    },
+    "Louis Farrakhan": {
+      "n": 2,
+      "detected": 2,
+      "mean_score": 0.6749518513679504
+    },
+    "Mark Zuckerberg": {
+      "n": 5,
+      "detected": 3,
+      "mean_score": 0.5940822958946228
+    },
+    "Alan Watts": {
+      "n": 4,
+      "detected": 3,
+      "mean_score": 0.6655034199357033
+    },
+    "Adam Driver": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.32411831617355347
+    },
+    "Mr. Rogers": {
+      "n": 1,
+      "detected": 1,
+      "mean_score": 0.720647394657135
+    },
+    "Boris Johnson": {
+      "n": 1,
+      "detected": 1,
+      "mean_score": 0.5613994598388672
+    },
+    "Dwight Eisenhower": {
+      "n": 2,
+      "detected": 0,
+      "mean_score": 0.4425938129425049
+    },
+    "Norm MacDonald": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.3410659432411194
+    },
+    "Tucker Carlson": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.3798946738243103
+    },
+    "Queen Elizabeth II": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.4939236640930176
+    },
+    "William F. Buckley": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.36442992091178894
+    },
+    "Bob Ross": {
+      "n": 1,
+      "detected": 1,
+      "mean_score": 0.7872058749198914
+    },
+    "Calvin Coolidge": {
+      "n": 1,
+      "detected": 1,
+      "mean_score": 0.656562328338623
+    },
+    "Richard Nixon": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.23586270213127136
+    },
+    "Alexandria Ocasio-Cortez": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.24809610843658447
+    },
+    "Kanye West": {
+      "n": 1,
+      "detected": 0,
+      "mean_score": 0.4987334609031677
+    }
+  },
+  "real_by_speaker": {
+    "Bernie Sanders": {
+      "n": 8,
+      "flagged": 2,
+      "mean_score": 0.3387268241494894
+    },
+    "Richard Nixon": {
+      "n": 2,
+      "flagged": 0,
+      "mean_score": 0.3255462050437927
+    },
+    "Ayn Rand": {
+      "n": 7,
+      "flagged": 0,
+      "mean_score": 0.3781154155731201
+    },
+    "Barack Obama": {
+      "n": 19,
+      "flagged": 0,
+      "mean_score": 0.2608057770289873
+    },
+    "Nick Offerman": {
+      "n": 3,
+      "flagged": 0,
+      "mean_score": 0.2935556222995122
+    },
+    "Bill Clinton": {
+      "n": 5,
+      "flagged": 0,
+      "mean_score": 0.26124134957790374
+    },
+    "Donald Trump": {
+      "n": 17,
+      "flagged": 3,
+      "mean_score": 0.3110879747306599
+    },
+    "Louis Farrakhan": {
+      "n": 4,
+      "flagged": 0,
+      "mean_score": 0.2537158727645874
+    },
+    "Christopher Hitchens": {
+      "n": 2,
+      "flagged": 0,
+      "mean_score": 0.4514341801404953
+    },
+    "Calvin Coolidge": {
+      "n": 2,
+      "flagged": 1,
+      "mean_score": 0.473997563123703
+    },
+    "Alec Guinness": {
+      "n": 5,
+      "flagged": 0,
+      "mean_score": 0.3703948736190796
+    },
+    "Ronald Reagan": {
+      "n": 7,
+      "flagged": 0,
+      "mean_score": 0.3258705905505589
+    },
+    "Mark Zuckerberg": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.5180421471595764
+    },
+    "Milton Friedman": {
+      "n": 2,
+      "flagged": 0,
+      "mean_score": 0.3510405942797661
+    },
+    "Martin Luther King": {
+      "n": 2,
+      "flagged": 0,
+      "mean_score": 0.2587807700037956
+    },
+    "Arnold Schwarzenegger": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.16323241591453552
+    },
+    "2Pac": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.2222324013710022
+    },
+    "Queen Elizabeth II": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.4820516109466553
+    },
+    "Alexandria Ocasio-Cortez": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.2691638469696045
+    },
+    "Harry Truman": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.4674408733844757
+    },
+    "Winston Churchill": {
+      "n": 3,
+      "flagged": 0,
+      "mean_score": 0.35969239970048267
+    },
+    "John Cleese": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.21447975933551788
+    },
+    "George Carlin": {
+      "n": 2,
+      "flagged": 0,
+      "mean_score": 0.26612747460603714
+    },
+    "JFK": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.20438358187675476
+    },
+    "George W. Bush": {
+      "n": 1,
+      "flagged": 0,
+      "mean_score": 0.27847498655319214
+    },
+    "Jeff Goldblum": {
+      "n": 1,
+      "flagged": 1,
+      "mean_score": 0.5756821632385254
+    }
+  },
+  "accuracy": 0.72,
+  "precision": 0.8793103448275862,
+  "recall": 0.51,
+  "f1": 0.6455696202531646,
+  "tp": 51,
+  "tn": 93,
+  "fp": 7,
+  "fn": 49,
+  "fpr": 0.07,
+  "fnr": 0.49
+}
